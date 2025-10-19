@@ -1,4 +1,5 @@
 # komandat git
+
 ```
 hapi fillestare
 git pull
@@ -6,6 +7,7 @@ git status
 git add -A
 git commit -m "mesazhi teksti sqarues"
 git push
+
 ```
 
 
@@ -19,6 +21,8 @@ of geometry, as point, line, polygon, in the destop version of shape file
 whitch should import to postgre database
 The costumer data, name, address, consumption of water per month, id, type of
 consumer ( private or business).  A water network should have these elements:
+
+1 Water network
 
 1. Supply pipe
 2. distribution pipe
@@ -67,7 +71,36 @@ consumer ( private or business).  A water network should have these elements:
 2. address (the name of road)
 3. Year of connection
 4. Id (char type : bill0036781)
+5. Type of building (house, or apartment)
+6. Flor (int type)
+7. Number of enter of building
+8. Name of investor of building
+9. Name of investor of building
+10. Type (type of stored in database, geom, point)
 
+
+
+
+
+
+```
+
+## database
+
+```
+krijimi i database për projektin e ëeb app për menagjimin me ujra.
+në database ka 4 grupe kryesore
+1. Rrjeti i ujsjellësit
+2. Ndërtesat, shtëpitë
+3. Rrjeti i rrugëve
+4. Pronarët
+
+1.1 Gypi i furnizimit
+1.2 Gypi shpwrndarws
+1.3 Gypi lidhws
+1.4 Ujmatwsi zonal
+1.5 Ujmatwsi kolektiv
+1.6 Ujmatwsi individual
 
 
 
