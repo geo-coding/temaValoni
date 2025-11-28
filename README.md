@@ -374,17 +374,17 @@ CREATE TABLE gypi_shperndares (
 
 | **Tabela**            | **Kolona**       | **Tipi**                   | **Veçori/Çelësi**                   |
 | --------------------- | ---------------- | -------------------------- | ----------------------------------- |
-| `gypi_furnizimi`      | id               | SERIAL                     | PRIMARY KEY                         |
+<!-- | `gypi_furnizimi`      | id               | SERIAL                     | PRIMARY KEY                         | -->
 |                       | adresa           | VARCHAR(255)               |                                     |
-|                       | gjeometria       | GEOMETRY(LineString, 4326) |                                     |
+<!-- |                       | gjeometria       | GEOMETRY(LineString, 4326) |                                     | -->
 |                       | dimensioni       | FLOAT                      |                                     |
 |                       | viti_instalimit  | INT                        |                                     |
 |                       | thellesi         | FLOAT                      |                                     |
 |                       | sasite_inkasuara | DOUBLE PRECISION           |                                     |
 |                       | sasite_matura    | DOUBLE PRECISION           |                                     |
 |                       | sasite_humbura   | DOUBLE PRECISION           |                                     |
-|                       | created_at       | TIMESTAMP                  | DEFAULT NOW()                       |
-| `ujemates_zonal`      | id               | SERIAL                     | PRIMARY KEY                         |
+<!-- |                       | created_at       | TIMESTAMP                  | DEFAULT NOW()                       | -->
+<!-- | `ujemates_zonal`      | id               | SERIAL                     | PRIMARY KEY                         | -->
 |                       | adresa           | VARCHAR(255)               |                                     |
 |                       | gjeometria       | GEOMETRY(Point, 4326)      |                                     |
 |                       | numri_kyqjeve    | INT                        |                                     |
@@ -393,20 +393,20 @@ CREATE TABLE gypi_shperndares (
 |                       | sasite_inkasuara | DOUBLE PRECISION           |                                     |
 |                       | sasite_matura    | DOUBLE PRECISION           |                                     |
 |                       | sasite_humbura   | DOUBLE PRECISION           |                                     |
-|                       | created_at       | TIMESTAMP                  | DEFAULT NOW()                       |
-| `ujemates_kolektiv`   | id               | SERIAL                     | PRIMARY KEY                         |
+<!-- **|                       | created_at       | TIMESTAMP                  | DEFAULT NOW()                       |** -->
+<!-- | `ujemates_kolektiv`   | id               | SERIAL                     | PRIMARY KEY                         | -->
 |                       | adresa           | VARCHAR(255)               |                                     |
 |                       | pronari_id       | INT                        | FOREIGN KEY REFERENCES pronaret(id) |
 |                       | lloji            | VARCHAR(50)                |                                     |
-|                       | gjeometria       | GEOMETRY(Point, 4326)      |                                     |
+<!-- |                       | gjeometria       | GEOMETRY(Point, 4326)      |                                     | -->
 |                       | viti_instalimit  | INT                        |                                     |
 |                       | sasite_inkasuara | DOUBLE PRECISION           |                                     |
 |                       | sasite_matura    | DOUBLE PRECISION           |                                     |
 |                       | sasite_humbura   | DOUBLE PRECISION           |                                     |
-|                       | created_at       | TIMESTAMP                  | DEFAULT NOW()                       |
-| `ujemates_individual` | id               | SERIAL                     | PRIMARY KEY                         |
+<!-- |                       | created_at       | TIMESTAMP                  | DEFAULT NOW()                       | -->
+<!-- | `ujemates_individual` | id               | SERIAL                     | PRIMARY KEY                         | -->
 |                       | adresa           | VARCHAR(255)               |                                     |
-|                       | gjeometria       | GEOMETRY(Point, 4326)      |                                     |
+<!-- |                       | gjeometria       | GEOMETRY(Point, 4326)      |                                     | -->
 |                       | pronari_id       | INT                        | FOREIGN KEY REFERENCES pronaret(id) |
 |                       | sasite_inkasuara | DOUBLE PRECISION           |                                     |
 |                       | sasite_matura    | DOUBLE PRECISION           |                                     |
@@ -415,15 +415,15 @@ CREATE TABLE gypi_shperndares (
 |                       | viti_kyqjes      | INT                        |                                     |
 |                       | ndertimi_lloji   | VARCHAR(100)               |                                     |
 |                       | kati             | INT                        |                                     |
-|                       | created_at       | TIMESTAMP                  | DEFAULT NOW()                       |
-| `gypi_shperndares`    | id               | SERIAL                     | PRIMARY KEY                         |
+<!-- |                       | created_at       | TIMESTAMP                  | DEFAULT NOW()                       | -->
+<!-- | `gypi_shperndares`    | id               | SERIAL                     | PRIMARY KEY                         | -->
 |                       | adresa           | VARCHAR(255)               |                                     |
-|                       | gjeometria       | GEOMETRY(LineString, 4326) |                                     |
+<!-- |                       | gjeometria       | GEOMETRY(LineString, 4326) |                                     | -->
 |                       | thellesi         | FLOAT                      |                                     |
 |                       | dimensioni       | FLOAT                      |                                     |
 |                       | viti_instalimit  | INT                        |                                     |
 |                       | materiali        | VARCHAR(50)                |                                     |
 |                       | nr_kyqjeve       | INT                        | DEFAULT 0                           |
-|                       | created_at       | TIMESTAMP                  | DEFAULT NOW()                       |
+<!-- |                       | created_at       | TIMESTAMP                  | DEFAULT NOW()                       | -->
 
 
