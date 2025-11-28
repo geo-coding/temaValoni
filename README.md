@@ -149,6 +149,7 @@ sasite e ujmatesave individual qe jane ne ndertesen e njejte, diferenca duhet
 trajtuar si hubje
 
 ujmatesi individual
+
 duhet te kete keto atribute
 1.  geom (gjeometria, qe duhet te jete pike)
 2.  sasite e inkasuara
@@ -170,6 +171,25 @@ ne rastet kur ujmatesi individual eshte ne ndertese kolektive duhet te kete si
 atribut dhe katin 
 ujmatesi individual duhet te kete lidhje me tabeln e pronareve, me q'rast ai
 pronare te merr te dhenat e sasive nga ujmatesi individual
+
+Gypi shperndares
+
+
+Gypi shperndares duhet te kete keto atribute:
+thellesi: float (1.12 m)
+dimenzioni: float (fi 30)
+viti istalimit: int (2005)
+materiali: char (pvc,asbest)
+tipi: geom (gjeometria , qe do jete linje)
+nrKyqjeve: int (1532)
+
+gjeometri dhe  atributet do te vine te plotesuara nga qgis, ne formatin
+shapefile
+
+gypi shperndares duhet te kete lidhje me ujmatesat zonal dhe ato individual me
+q'rast nje gyp ka shume ujmatesa individual e kolektiv, kurse  shume gypa
+shperndares kane nga 1 ujmates zonal
+
 
 
 
