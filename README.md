@@ -100,10 +100,10 @@ në database ka 4 grupe kryesore
  rrjeti i ujsjellesit
 
 1.  Gypi i furnizimit
-2.  Gypi shperndares
-3.  Ujmatesi zonal
-4.  Ujmatesi kolektiv
-5.  Ujmatesi individual
+2.  Ujmatesi zonal
+3.  Ujmatesi kolektiv
+4.  Ujmatesi individual
+5.  Gypi shperndares
 
 Gypi i furnizimit
 
@@ -147,6 +147,31 @@ kyqur ne te ujmatesi kolektiv eshte ujmates qe mate sasite e ujit te nje
 ndertese te tere, me q'rast sasite e lexuara ne te duhet te pershtaten me
 sasite e ujmatesave individual qe jane ne ndertesen e njejte, diferenca duhet
 trajtuar si hubje
+
+ujmatesi individual
+duhet te kete keto atribute
+1.  geom (gjeometria, qe duhet te jete pike)
+2.  sasite e inkasuara
+3.  sasite e matura
+4.  borgji
+5.  lloji (amviseri, afarizem, industri)
+6.  pronari (fushe qe vie nga tabelat e konsumatoreve)
+7.  viti kyqjes :int (1997)
+8.  NdertimiLloji: char (shtepi ose banese, ndertese kolektive)
+
+ujmatesi individual si gjeomteri vie nga shapefile i gjeneruar ne qgis, i formes pike
+ujmatesi individual duhet te kete lidhje me ujmatesin kolektiv (nje ujmates
+kolektiv shume ujmatesa individual)
+ujmatesi individual duhet te kete lidhje me ujmatesin zonal (nje ujmates
+zonal shume ujmatesa individual)
+sasite  e ujmatesit individual duhet te transmetohen te ujmatesi kolektiv
+respektiv, dhe ujmatesi zonal
+ne rastet kur ujmatesi individual eshte ne ndertese kolektive duhet te kete si
+atribut dhe katin 
+ujmatesi individual duhet te kete lidhje me tabeln e pronareve, me q'rast ai
+pronare te merr te dhenat e sasive nga ujmatesi individual
+
+
 
  ```
 
