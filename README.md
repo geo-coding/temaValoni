@@ -143,6 +143,21 @@ ne ujmatesin zonal, me q'rast shuma e sasive te inkasuara ne ujmatesa
 individual duhet te jete me shumen e lexuar te ujmatesin zonal, shperputhja ne
 rrezultat duhet te trajtohet si humbje.
 
+--- codi --- 
+
+CREATE TABLE ujemates_zonal (
+    id SERIAL PRIMARY KEY,
+    adresa VARCHAR(255),
+    gjeometria GEOMETRY(Point, 4326),
+    numri_kyqjeve INT,
+    viti_instalimit INT,
+    materiali VARCHAR(50),
+    sasite_inkasuara DOUBLE PRECISION,
+    sasite_matura DOUBLE PRECISION,
+    sasite_humbura DOUBLE PRECISION,
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
 Ujmatesi kolektiv
 
 vendoset neper ndertesa te banimit kolektiv me shume njesi banesore
@@ -160,6 +175,21 @@ kyqur ne te ujmatesi kolektiv eshte ujmates qe mate sasite e ujit te nje
 ndertese te tere, me q'rast sasite e lexuara ne te duhet te pershtaten me
 sasite e ujmatesave individual qe jane ne ndertesen e njejte, diferenca duhet
 trajtuar si hubje
+
+--- codi --- 
+
+CREATE TABLE ujemates_kolektiv (
+    id SERIAL PRIMARY KEY,
+    adresa VARCHAR(255),
+    pronari_id INT REFERENCES pronaret(id),
+    lloji VARCHAR(50),
+    gjeometria GEOMETRY(Point, 4326),
+    viti_instalimit INT,
+    sasite_inkasuara DOUBLE PRECISION,
+    sasite_matura DOUBLE PRECISION,
+    sasite_humbura DOUBLE PRECISION,
+    created_at TIMESTAMP DEFAULT NOW()
+);
 
 ujmatesi individual
 
@@ -185,6 +215,21 @@ atribut dhe katin
 ujmatesi individual duhet te kete lidhje me tabeln e pronareve, me q'rast ai
 pronare te merr te dhenat e sasive nga ujmatesi individual
 
+CREATE TABLE ujemates_individual (
+    id SERIAL PRIMARY KEY,
+    adresa VARCHAR(255),
+    gjeometria GEOMETRY(Point, 4326),
+    pronari_id INT REFERENCES pronaret(id),
+    sasite_inkasuara DOUBLE PRECISION,
+    sasite_matura DOUBLE PRECISION,
+    borgji DOUBLE PRECISION,
+    lloji VARCHAR(50),
+    viti_kyqjes INT,
+    ndertimi_lloji VARCHAR(100),
+    kati INT,
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
 Gypi shperndares
 
 
@@ -206,6 +251,28 @@ shperndares kane nga 1 ujmates zonal
 numri i kyqjeve ne gypin shperndares duehet pastaj te jete i kalkulueshem se sa
 ujematesa individual jane te kyquur ne te
 
+
+CREATE TABLE gypi_shperndares (
+    id SERIAL PRIMARY KEY,
+    adresa VARCHAR(255),
+    gjeometria GEOMETRY(LineString, 4326),
+    thellesi FLOAT,
+    dimensioni FLOAT,
+    viti_instalimit INT,
+    materiali VARCHAR(50),
+    nr_kyqjeve INT DEFAULT 0,
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
+
+ ```
+
+
+
+### rrjeti i ujesjellesit vizualizimi
+
+
+```
 
 ┌─────────────────────┐        ┌─────────────────────┐
 │      Pronaret       │1      ∞│   UjmatesiIndividual│
@@ -290,22 +357,14 @@ ujematesa individual jane te kyquur ne te
 └───────────────────────────┘
 
 
+| Lidhja                                | Tipi   | Tabela ndërmjetëse         |
+| ------------------------------------- | ------ | -------------------------- |
+| Gypi Furnizimi → Ujmatës Zonal        | 1:N    | gyp_furnizimi_zonal        |
+| Gypi Shpërndarës → Ujmatës Zonal      | Many:1 | gyp_shperndares_zonal      |
+| Gypi Shpërndarës → Ujmatës Individual | 1:N    | gyp_shperndares_individual |
+| Ujmatës Zonal → Ujmatës Individual    | 1:N    | zonal_individual           |
+| Ujmatës Kolektiv → Ujmatës Individual | 1:N    | kolektiv_individual        |
+| Ujmatës Individual → Pronari          | Many:1 | direkt (foreign key)       |
+| Ujmatës Kolektiv → Pronari            | Many:1 | direkt (foreign key)       |
 
- ```
-
-
-`CREATE TABLE gypi_furnizimi (
-    id SERIAL PRIMARY KEY,
-    adresa VARCHAR(255),
-    gjeometria GEOMETRY(LineString, 4326),
-    dimensioni FLOAT,
-    viti_instalimit INT,
-    thellesi FLOAT,
-    sasite_inkasuara DOUBLE PRECISION,
-    sasite_matura DOUBLE PRECISION,
-    sasite_humbura DOUBLE PRECISION,
-    created_at TIMESTAMP DEFAULT NOW()
-);
-` 
-
-
+```
