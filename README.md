@@ -88,20 +88,66 @@ consumer ( private or business).  A water network should have these elements:
 ## database
 
 ```
-krijimi i database për projektin e ëeb app për menagjimin me ujra.
+krijimi i database për projektin e web app për menagjimin me ujra.
 në database ka 4 grupe kryesore
+
 1. Rrjeti i ujsjellësit
 2. Ndërtesat, shtëpitë
 3. Rrjeti i rrugëve
 4. Pronarët
 
-1.1 Gypi i furnizimit
-1.2 Gypi shpwrndarws
-1.3 Gypi lidhws
-1.4 Ujmatwsi zonal
-1.5 Ujmatwsi kolektiv
-1.6 Ujmatwsi individual
+
+ rrjeti i ujsjellesit
+
+1.  Gypi i furnizimit
+2.  Gypi shperndares
+3.  Ujmatesi zonal
+4.  Ujmatesi kolektiv
+5.  Ujmatesi individual
+
+Gypi i furnizimit
+
+1. tipi: geom (gjeometria: linje , pike , apo poligon)
+2. dimenzionit : float (shembull fi 12)
+3. viti i instalimit : int (shembull 1997)
+4. thellesi : float (1.12 m)
+5. sasite e inkasuara : double (1525.32 m3)
+6. sasite e matura : double (1555.32 m3)
+7. sasite e humbura : double (153.32 m3)
+
+Ujmatesi zonal
+
+    1. tipi: geom (gjeometria: linje , pike , apo poligon)
+    2. nnmri i kyqjeve: int (duhet te jete i barabarte me numrin e konsumatoreve qe
+    jane te lidhur ne ujmatesin zonal)
+    3. viti i instalimit : int (shembull 1997)
+    4. materiali (pvc, asbest....)
+    5. sasite e inkasuara : double (1525.32 m3)
+    6. sasite e matura : double (1555.32 m3)
+    7. sasite e humbura : double (153.32 m3)
+ujmatesi zonal duhet te kete lidhje me ujmatesat individual qe jane te lidhur
+ne ujmatesin zonal, me q'rast shuma e sasive te inkasuara ne ujmatesa
+individual duhet te jete me shumen e lexuar te ujmatesin zonal, shperputhja ne
+rrezultat duhet te trajtohet si humbje.
+
+Ujmatesi kolektiv
+
+vendoset neper ndertesa te banimit kolektiv me shume njesi banesore
+1.  pronari (ne kete rast investitori apo emri i kompanise investitore)
+2.  Lloji: char  (perdorimi per amviseri, afarizem, industri etj)
+3.  Adresa: char (emri i rruges)
+4.  gjeometria (pike, e marrur nga shapefile)
+5.  Viti i instalimit
+6.  sasite e inkasuara
+7.  sasite e matura
+8.  sasite e humbuara
+
+ujmatesi kolektiv duhet te kete lidhje me ujmatesat individual te cilet jane te
+kyqur ne te ujmatesi kolektiv eshte ujmates qe mate sasite e ujit te nje
+ndertese te tere, me q'rast sasite e lexuara ne te duhet te pershtaten me
+sasite e ujmatesave individual qe jane ne ndertesen e njejte, diferenca duhet
+trajtuar si hubje
+
+ ```
 
 
-
-```
