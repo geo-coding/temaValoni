@@ -115,6 +115,19 @@ Gypi i furnizimit
 6. sasite e matura : double (1555.32 m3)
 7. sasite e humbura : double (153.32 m3)
 
+CREATE TABLE gypi_furnizimi (
+    id SERIAL PRIMARY KEY,
+    adresa VARCHAR(255),
+    gjeometria GEOMETRY(LineString, 4326),
+    dimensioni FLOAT,
+    viti_instalimit INT,
+    thellesi FLOAT,
+    sasite_inkasuara DOUBLE PRECISION,
+    sasite_matura DOUBLE PRECISION,
+    sasite_humbura DOUBLE PRECISION,
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
 Ujmatesi zonal
 
     1. tipi: geom (gjeometria: linje , pike , apo poligon)
@@ -281,84 +294,18 @@ ujematesa individual jane te kyquur ne te
  ```
 
 
-┌─────────────────────┐        ┌─────────────────────┐
-│      Pronaret       │1      ∞│   UjmatesiIndividual│
-│---------------------│◄───────│---------------------│
-│ id (PK)             │        │ id (PK)             │
-│ emri                │        │ adresa              │
-│ adresa              │        │ gjeometria (Point)  │
-└─────────────────────┘        │ sasite_inkasuara     │
-                                │ sasite_matura        │
-                                │ borgji              │
-                                │ lloji               │
-                                │ viti_kyqjes         │
-                                │ ndertimi_lloji      │
-                                │ kati                │
-                                └─────────────────────┘
-                                          ▲
-                                          │
-                                          │
-                  ┌───────────────────────┴─────────────────────────┐
-                  │                                                 │
-┌───────────────────────────┐                       ┌───────────────────────────┐
-│   UjmatesiKolektiv        │1                     ∞│ UjmatesiIndividual       │
-│---------------------------│◄─────────────────────│ (via kolektiv_individual)│
-│ id (PK)                   │                       └───────────────────────────┘
-│ adresa                    │
-│ pronari_id (FK)           │
-│ lloji                     │
-│ gjeometria (Point)        │
-│ viti_instalimit           │
-│ sasite_inkasuara           │
-│ sasite_matura             │
-│ sasite_humbura            │
-└───────────────────────────┘
+`CREATE TABLE gypi_furnizimi (
+    id SERIAL PRIMARY KEY,
+    adresa VARCHAR(255),
+    gjeometria GEOMETRY(LineString, 4326),
+    dimensioni FLOAT,
+    viti_instalimit INT,
+    thellesi FLOAT,
+    sasite_inkasuara DOUBLE PRECISION,
+    sasite_matura DOUBLE PRECISION,
+    sasite_humbura DOUBLE PRECISION,
+    created_at TIMESTAMP DEFAULT NOW()
+);
+` 
 
-┌───────────────────────────┐
-│    UjmatesiZonal          │1
-│---------------------------│
-│ id (PK)                   │
-│ adresa                    │
-│ gjeometria (Point)        │
-│ numri_kyqjeve             │
-│ viti_instalimit           │
-│ materiali                 │
-│ sasite_inkasuara           │
-│ sasite_matura             │
-│ sasite_humbura            │
-└───────────────────────────┘
-        ▲1
-        │
-        │∞
-┌───────────────────────────┐
-│ GypiShperndares           │
-│---------------------------│
-│ id (PK)                   │
-│ adresa                    │
-│ gjeometria (LineString)   │
-│ thellesi                  │
-│ dimensioni                │
-│ materiali                 │
-│ nr_kyqjeve                │
-│ viti_instalimit           │
-└───────────────────────────┘
-        ▲
-        │∞
-┌───────────────────────────┐
-│ GypiFurnizimi             │
-│---------------------------│
-│ id (PK)                   │
-│ adresa                    │
-│ gjeometria (LineString)   │
-│ dimensioni                │
-│ thellesi                  │
-│ viti_instalimit           │
-│ sasite_inkasuara           │
-│ sasite_matura             │
-│ sasite_humbura            │
-└───────────────────────────┘
-        │
-        │1
-┌───────────────────────────┐
-│ UjmatesiZonal             │
-└───────────────────────────┘
+
