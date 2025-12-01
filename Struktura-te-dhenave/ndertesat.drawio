@@ -1,0 +1,70 @@
+<mxfile host="65bd71144e">
+    <diagram id="461tscaGApLazEdDz288" name="Page-1">
+        <mxGraphModel dx="948" dy="1996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;b&gt;llojet_ndertesave&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="200" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;emri: varchar&lt;br&gt;pershkrim: text&lt;br&gt;created_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="2" vertex="1">
+                    <mxGeometry x="10" y="30" width="180" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;b&gt;ndertesat&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="40" width="250" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; objekt_id: varchar&lt;br&gt;geometry: geometry&lt;br&gt;adresa: varchar&lt;br&gt;&lt;u&gt;FK&lt;/u&gt; rruga_id: int&lt;br&gt;&lt;u&gt;FK&lt;/u&gt; lloji_id: int&lt;br&gt;pronari_investitori: varchar&lt;br&gt;numri_etazheve: int&lt;br&gt;pershkrimi_etazhave: varchar&lt;br&gt;viti_ndertimit: int&lt;br&gt;statusi: varchar&lt;br&gt;created_at: timestamp&lt;br&gt;updated_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="4" vertex="1">
+                    <mxGeometry x="10" y="30" width="230" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;pjeset_ndertesave&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="260" width="220" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;FK&lt;/u&gt; ndertesa_id: int&lt;br&gt;emri: varchar&lt;br&gt;lloji: varchar&lt;br&gt;kati: int&lt;br&gt;siperfaqa: double&lt;br&gt;numri_dhomave: int&lt;br&gt;statusi_pronaresise: varchar&lt;br&gt;&lt;u&gt;FK&lt;/u&gt; pronari_id: int&lt;br&gt;&lt;u&gt;FK&lt;/u&gt; ujemates_individual_id: int&lt;br&gt;pershkrim: text&lt;br&gt;created_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="6" vertex="1">
+                    <mxGeometry x="10" y="30" width="200" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;b&gt;shtepite_individuale&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="360" width="200" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;FK,UK&lt;/u&gt; ndertesa_id: int&lt;br&gt;numri_banesorve: int&lt;br&gt;ka_kopsht: boolean&lt;br&gt;siperfaqa_kopshtit: double&lt;br&gt;lloji_shtepise: varchar&lt;br&gt;created_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="8" vertex="1">
+                    <mxGeometry x="10" y="30" width="180" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;b&gt;lidhje_ndertesa_ujsjelles&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="550" width="280" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;FK&lt;/u&gt; ndertesa_id: int&lt;br&gt;&lt;u&gt;FK&lt;/u&gt; gyp_furnizimi_id: int&lt;br&gt;&lt;u&gt;FK&lt;/u&gt; gyp_shperndares_id: int&lt;br&gt;&lt;u&gt;FK&lt;/u&gt; ujemates_zonal_id: int&lt;br&gt;&lt;u&gt;FK&lt;/u&gt; ujemates_kolektiv_id: int&lt;br&gt;&lt;u&gt;FK&lt;/u&gt; ujemates_individual_id: int&lt;br&gt;lloji_lidhjes: varchar&lt;br&gt;statusi_lidhjes: varchar&lt;br&gt;data_lidhjes: date&lt;br&gt;created_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="10" vertex="1">
+                    <mxGeometry x="10" y="30" width="260" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="1:M" style="endArrow=open;html=1;rounded=0;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" parent="1" source="2" target="4" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="240" y="120" as="sourcePoint"/>
+                        <mxPoint x="290" y="70" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="1:M" style="endArrow=open;html=1;rounded=0;exitX=0.25;exitY=1;entryX=0.5;entryY=0;" parent="1" source="4" target="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="370" y="320" as="sourcePoint"/>
+                        <mxPoint x="150" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="1:1" style="endArrow=open;html=1;rounded=0;exitX=0.75;exitY=1;entryX=0.5;entryY=0;" parent="1" source="4" target="8" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="425" y="320" as="sourcePoint"/>
+                        <mxPoint x="400" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="1:M" style="endArrow=open;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="4" target="10" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="425" y="320" as="sourcePoint"/>
+                        <mxPoint x="180" y="550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="&lt;b&gt;Legjenda:&lt;/b&gt;&lt;br&gt;PK - Primary Key&lt;br&gt;FK - Foreign Key&lt;br&gt;UK - Unique Key&lt;br&gt;1:1 - One-to-One&lt;br&gt;1:M - One-to-Many" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="40" width="150" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;h2&gt;UML Schema - Tabelat e Ndërtesave&lt;/h2&gt;&lt;p&gt;Sistemi i Menaxhimit të Ujësjellësit&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="5" width="400" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
