@@ -386,7 +386,7 @@ CREATE TABLE gypi_shperndares (
 <!-- |                       | created_at       | TIMESTAMP                  | DEFAULT NOW()                       | -->
 <!-- | `ujemates_zonal`      | id               | SERIAL                     | PRIMARY KEY                         | -->
 |                       | adresa           | VARCHAR(255)               |                                     |
-|                       | gjeometria       | GEOMETRY(Point, 4326)      |                                     |
+<!-- |                       | gjeometria       | GEOMETRY(Point, 4326)      |                                     | -->
 |                       | numri_kyqjeve    | INT                        |                                     |
 |                       | viti_instalimit  | INT                        |                                     |
 |                       | materiali        | VARCHAR(50)                |                                     |
@@ -396,7 +396,7 @@ CREATE TABLE gypi_shperndares (
 <!-- **|                       | created_at       | TIMESTAMP                  | DEFAULT NOW()                       |** -->
 <!-- | `ujemates_kolektiv`   | id               | SERIAL                     | PRIMARY KEY                         | -->
 |                       | adresa           | VARCHAR(255)               |                                     |
-|                       | pronari_id       | INT                        | FOREIGN KEY REFERENCES pronaret(id) |
+<!-- |                       | pronari_id       | INT                        | FOREIGN KEY REFERENCES pronaret(id) | -->
 |                       | lloji            | VARCHAR(50)                |                                     |
 <!-- |                       | gjeometria       | GEOMETRY(Point, 4326)      |                                     | -->
 |                       | viti_instalimit  | INT                        |                                     |
