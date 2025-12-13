@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="UML Water Management System">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- RRUGE -->
+        <mxCell id="rruge" value="Rruge&#xa;------------------&#xa;id (PK)&#xa;kodi&#xa;emri&#xa;kategoria&#xa;geom: LineString"
+          style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;"
+          vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="220" height="160" as="geometry"/>
+        </mxCell>
+
+        <!-- NDERTESA -->
+        <mxCell id="ndertesa" value="Ndertese&#xa;------------------&#xa;id (PK)&#xa;rruge_id (FK)&#xa;ujmates_kolektiv_id (FK)&#xa;geom: Polygon"
+          style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;"
+          vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="240" height="160" as="geometry"/>
+        </mxCell>
+
+        <!-- PJESA NDERTESA -->
+        <mxCell id="pjese" value="Pjese_Ndertese&#xa;------------------&#xa;id (PK)&#xa;ndertese_id (FK)&#xa;ujmates_individual_id (FK)&#xa;kati&#xa;geom: Point"
+          style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;"
+          vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="240" height="180" as="geometry"/>
+        </mxCell>
+
+        <!-- SHTEPI -->
+        <mxCell id="shtepi" value="Shtepi&#xa;------------------&#xa;id (PK)&#xa;rruge_id (FK)&#xa;geom: Point"
+          style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;"
+          vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="220" height="140" as="geometry"/>
+        </mxCell>
+
+        <!-- PRONARI -->
+        <mxCell id="pronari" value="Pronari&#xa;------------------&#xa;id (PK: BILLxxxx)&#xa;emri&#xa;mbiemri&#xa;kontakti&#xa;borgji_aktual&#xa;ujmates_individual_id (FK)"
+          style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;"
+          vertex="1" parent="1">
+          <mxGeometry x="620" y="240" width="260" height="200" as="geometry"/>
+        </mxCell>
+
+        <!-- UJMATES ZONAL -->
+        <mxCell id="zonal" value="Ujmates_Zonal&#xa;------------------&#xa;id (PK)&#xa;materiali&#xa;viti_instalimit&#xa;sasite_matura&#xa;sasite_humbura&#xa;geom"
+          style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;"
+          vertex="1" parent="1">
+          <mxGeometry x="900" y="40" width="260" height="180" as="geometry"/>
+        </mxCell>
+
+        <!-- GYPI SHPERndares -->
+        <mxCell id="gyp" value="Gypi_Shperndares&#xa;------------------&#xa;id (PK)&#xa;ujmates_zonal_id (FK)&#xa;rruge_id (FK)&#xa;dimensioni&#xa;thellesi&#xa;geom: Line"
+          style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;"
+          vertex="1" parent="1">
+          <mxGeometry x="900" y="260" width="260" height="180" as="geometry"/>
+        </mxCell>
+
+        <!-- UJMATES KOLEKTIV -->
+        <mxCell id="kolektiv" value="Ujmates_Kolektiv&#xa;------------------&#xa;id (PK)&#xa;ndertese (1:1)&#xa;sasite_matura&#xa;geom: Point"
+          style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;"
+          vertex="1" parent="1">
+          <mxGeometry x="620" y="40" width="240" height="140" as="geometry"/>
+        </mxCell>
+
+        <!-- UJMATES INDIVIDUAL -->
+        <mxCell id="individual" value="Ujmates_Individual&#xa;------------------&#xa;id (PK)&#xa;viti_kyqjes&#xa;sasite_matura&#xa;borgji&#xa;geom: Point"
+          style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;"
+          vertex="1" parent="1">
+          <mxGeometry x="620" y="470" width="260" height="160" as="geometry"/>
+        </mxCell>
+
+        <!-- RELATIONS -->
+        <mxCell edge="1" parent="1" source="rruge" target="ndertesa" style="endArrow=block;"/>
+        <mxCell edge="1" parent="1" source="rruge" target="shtepi" style="endArrow=block;"/>
+        <mxCell edge="1" parent="1" source="ndertesa" target="pjese" style="endArrow=block;"/>
+        <mxCell edge="1" parent="1" source="pjese" target="individual" style="endArrow=block;"/>
+        <mxCell edge="1" parent="1" source="ndertesa" target="kolektiv" style="endArrow=block;"/>
+        <mxCell edge="1" parent="1" source="individual" target="pronari" style="endArrow=block;"/>
+        <mxCell edge="1" parent="1" source="gyp" target="zonal" style="endArrow=block;"/>
+        <mxCell edge="1" parent="1" source="gyp" target="ndertesa" style="endArrow=block;"/>
+        <mxCell edge="1" parent="1" source="gyp" target="shtepi" style="endArrow=block;"/>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

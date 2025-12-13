@@ -1,46 +1,82 @@
 <mxfile host="65bd71144e">
     <diagram id="DeUkcmYFL55qeXjTCTD-" name="UML Ujesjellesi Final">
-        <mxGraphModel dx="1938" dy="2481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+        <mxGraphModel dx="49327" dy="44508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="RRUGET&#xa;PK id&#xa;kodi&#xa;emri_rruges&#xa;kategoria&#xa;geom(Line)" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="2" value="RRUGET&#xa;PK id&#xa;kodi&#xa;emri_rruges&#xa;kategoria&#xa;geom(Line)" style="rounded=1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="20" y="20" width="200" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="NDERTESA&#xa;PK id&#xa;rruge_id (FK)&#xa;geom(Polygon)&#xa;ujmatesi_kolektiv_id (FK,1:1)" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="3" value="NDERTESA&#xa;PK id&#xa;rruge_id (FK)&#xa;geom(Polygon)&#xa;ujmatesi_kolektiv_id (FK,1:1)" style="rounded=1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="260" y="20" width="240" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="PJESA_NDERTESA&#xa;PK id&#xa;ndertese_id (FK)&#xa;kati&#xa;ujmatesi_individual_id (FK,1:1)" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="4" value="PJESA_NDERTESA&#xa;PK id&#xa;ndertese_id (FK)&#xa;kati&#xa;ujmatesi_individual_id (FK,1:1)" style="rounded=1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="540" y="20" width="260" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="SHTEPI&#xa;PK id&#xa;rruge_id (FK)&#xa;geom(Polygon)&#xa;ujmatesi_individual_id (FK,1:1)" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="5" value="SHTEPI&#xa;PK id&#xa;rruge_id (FK)&#xa;geom(Polygon)&#xa;ujmatesi_individual_id (FK,1:1)" style="rounded=1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="260" y="220" width="240" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="PRONARET&#xa;PK id (BILLxxxx)&#xa;emri&#xa;mbiemri&#xa;kontakti&#xa;borgji_aktual" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="6" value="PRONARET&#xa;PK id (BILLxxxx)&#xa;emri&#xa;mbiemri&#xa;kontakti&#xa;borgji_aktual" style="rounded=1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="840" y="20" width="240" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="UJMATES_INDIVIDUAL&#xa;PK id&#xa;geom(Point)&#xa;sasi_matur&#xa;sasi_inkasuar&#xa;pronari_id (FK)" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="7" value="UJMATES_INDIVIDUAL&#xa;PK id&#xa;geom(Point)&#xa;sasi_matur&#xa;sasi_inkasuar&#xa;pronari_id (FK)" style="rounded=1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="840" y="220" width="260" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="UJMATES_KOLEKTIV&#xa;PK id&#xa;geom(Point)&#xa;sasi_matur" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="8" value="UJMATES_KOLEKTIV&#xa;PK id&#xa;geom(Point)&#xa;sasi_matur" style="rounded=1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="540" y="220" width="260" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="UJMATES_ZONAL&#xa;PK id&#xa;geom(Point)&#xa;sasi_matur" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="20" y="420" width="260" height="140" as="geometry"/>
+                <mxCell id="9" value="UJMATES_ZONAL&#xa;PK id&#xa;geom(Point)&#xa;sasi_matur" style="rounded=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="520" width="260" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="GYPI_SHPERNDARËS&#xa;PK id&#xa;geom(Line)&#xa;material&#xa;diameter&#xa;ujmatesi_zonal_id (FK)" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="320" y="420" width="280" height="160" as="geometry"/>
+                <mxCell id="10" value="GYPI_SHPERNDARËS&#xa;PK id&#xa;geom(Line)&#xa;material&#xa;diameter&#xa;ujmatesi_zonal_id (FK)" style="rounded=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="460" width="280" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" edge="1" parent="1" source="2" target="3"/>
-                <mxCell id="12" edge="1" parent="1" source="2" target="5"/>
-                <mxCell id="13" edge="1" parent="1" source="3" target="4"/>
-                <mxCell id="14" edge="1" parent="1" source="4" target="7"/>
-                <mxCell id="15" edge="1" parent="1" source="5" target="7"/>
-                <mxCell id="16" edge="1" parent="1" source="3" target="8"/>
-                <mxCell id="17" edge="1" parent="1" source="7" target="6"/>
-                <mxCell id="18" edge="1" parent="1" source="10" target="3"/>
-                <mxCell id="19" edge="1" parent="1" source="10" target="5"/>
-                <mxCell id="20" edge="1" parent="1" source="9" target="10"/>
+                <mxCell id="11" parent="1" source="2" target="3" edge="1"/>
+                <mxCell id="12" parent="1" source="2" target="5" edge="1"/>
+                <mxCell id="13" parent="1" source="3" target="4" edge="1"/>
+                <mxCell id="14" parent="1" source="4" target="7" edge="1"/>
+                <mxCell id="15" parent="1" source="5" target="7" edge="1"/>
+                <mxCell id="16" parent="1" source="3" target="8" edge="1"/>
+                <mxCell id="17" parent="1" source="7" target="6" edge="1"/>
+                <mxCell id="18" parent="1" source="10" target="3" edge="1"/>
+                <mxCell id="19" parent="1" source="10" target="5" edge="1"/>
+                <mxCell id="20" parent="1" source="9" target="10" edge="1"/>
+                <mxCell id="21" value="Rruge&#xa;------------------&#xa;id (PK)&#xa;kodi&#xa;emri&#xa;kategoria&#xa;geom: LineString" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="-270" width="220" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Ndertese&#xa;------------------&#xa;id (PK)&#xa;rruge_id (FK)&#xa;ujmates_kolektiv_id (FK)&#xa;geom: Polygon" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="-270" width="240" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Pjese_Ndertese&#xa;------------------&#xa;id (PK)&#xa;ndertese_id (FK)&#xa;ujmates_individual_id (FK)&#xa;kati&#xa;geom: Point" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="-100" width="240" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Shtepi&#xa;------------------&#xa;id (PK)&#xa;rruge_id (FK)&#xa;geom: Point" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;" vertex="1" parent="1">
+                    <mxGeometry y="300" width="220" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Pronari&#xa;------------------&#xa;id (PK: BILLxxxx)&#xa;emri&#xa;mbiemri&#xa;kontakti&#xa;borgji_aktual&#xa;ujmates_individual_id (FK)" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="700" width="260" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Ujmates_Zonal&#xa;------------------&#xa;id (PK)&#xa;materiali&#xa;viti_instalimit&#xa;sasite_matura&#xa;sasite_humbura&#xa;geom" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="-280" width="260" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Gypi_Shperndares&#xa;------------------&#xa;id (PK)&#xa;ujmates_zonal_id (FK)&#xa;rruge_id (FK)&#xa;dimensioni&#xa;thellesi&#xa;geom: Line" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;" vertex="1" parent="1">
+                    <mxGeometry x="920" y="430" width="260" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Ujmates_Kolektiv&#xa;------------------&#xa;id (PK)&#xa;ndertese (1:1)&#xa;sasite_matura&#xa;geom: Point" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;" vertex="1" parent="1">
+                    <mxGeometry x="585" y="-260" width="240" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Ujmates_Individual&#xa;------------------&#xa;id (PK)&#xa;viti_kyqjes&#xa;sasite_matura&#xa;borgji&#xa;geom: Point" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="630" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="endArrow=block;" edge="1" parent="1" source="21" target="22"/>
+                <mxCell id="31" style="endArrow=block;" edge="1" parent="1" source="21" target="24"/>
+                <mxCell id="32" style="endArrow=block;" edge="1" parent="1" source="22" target="23"/>
+                <mxCell id="33" style="endArrow=block;" edge="1" parent="1" source="23" target="29"/>
+                <mxCell id="34" style="endArrow=block;" edge="1" parent="1" source="22" target="28"/>
+                <mxCell id="35" style="endArrow=block;" edge="1" parent="1" source="29" target="25"/>
+                <mxCell id="36" style="endArrow=block;" edge="1" parent="1" source="27" target="26"/>
+                <mxCell id="37" style="endArrow=block;" edge="1" parent="1" source="27" target="22"/>
+                <mxCell id="38" style="endArrow=block;" edge="1" parent="1" source="27" target="24"/>
             </root>
         </mxGraphModel>
     </diagram>
