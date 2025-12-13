@@ -1,0 +1,338 @@
+<mxfile host="65bd71144e">
+    <diagram id="54Z8r0Q8AXjFjp57jenT" name="Page-1">
+        <mxGraphModel dx="2445" dy="1642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&#xa;  &#xa;    &#xa;      &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        " style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry width="30" height="3280" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&#xa;  &#xa;    &#xa;      &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        " style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry width="30" height="6410" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&#xa;  &#xa;    &#xa;      &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;          &#xa;            &#xa;            &#xa;          &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        " style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry width="30" height="6410" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;h1&gt;🚰 Sistemi i Plotë i Menaxhimit të Ujësjellësit&lt;/h1&gt;&lt;p&gt;UML Database Schema - Të gjitha Tabelat dhe Lidhjet&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="10" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;b&gt;SEKTORI 1: PRONARËT &amp; RRUGËT&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="80" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;b&gt;kategorite_rrugeve&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="120" width="200" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; kodi: varchar&lt;br&gt;emri: varchar&lt;br&gt;pershkrim: text&lt;br&gt;prioritet: int&lt;br&gt;created_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="12">
+                    <mxGeometry x="10" y="30" width="180" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;b&gt;rruget&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="270" width="280" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; kodi: varchar&lt;br&gt;emri: varchar&lt;br&gt;geometry: geometry&lt;br&gt;kategori_id: int&lt;br&gt;gjatesia/gjeresia: double&lt;br&gt;statusi: varchar&lt;br&gt;zona: varchar&lt;br&gt;viti_ndertimit: int&lt;br&gt;materiali: varchar&lt;br&gt;created_at/updated_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="14">
+                    <mxGeometry x="10" y="30" width="260" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;b&gt;pronaret&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="470" width="280" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;u&gt;PK&lt;/u&gt; id: varchar(20)&lt;br&gt;emri/mbiemri: varchar&lt;br&gt;lloji: varchar&lt;br&gt;nid: varchar&lt;br&gt;kontakti: varchar&lt;br&gt;adresa: varchar&lt;br&gt;rruga_id: int&lt;br&gt;borxhi_aktual: double&lt;br&gt;&lt;hr&gt;&lt;b&gt;Sasitë Mujore:&lt;/b&gt;&lt;br&gt;sasia_janar ... dhjetor&lt;br&gt;sasia_total_vjetore&lt;br&gt;sasia_pa_paguar&lt;br&gt;&lt;hr&gt;data_regjistrimit: date&lt;br&gt;statusi: varchar&lt;br&gt;created_at/updated_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="16">
+                    <mxGeometry x="10" y="30" width="260" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;b&gt;SEKTORI 2: RRJETI I UJËSJELLËSIT&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="80" width="380" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;b&gt;materialet&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="120" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; emri: varchar&lt;br&gt;pershkrim: text&lt;br&gt;created_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="19">
+                    <mxGeometry x="10" y="30" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;b&gt;gyp_furnizimi&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="240" width="350" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; kodi: varchar&lt;br&gt;geometry: geometry&lt;br&gt;dimensioni: float&lt;br&gt;viti_instalimit: int&lt;br&gt;thellesi: float&lt;br&gt;materiali_id: int&lt;br&gt;rruga_id: int&lt;br&gt;sasite_inkasuara: double&lt;br&gt;sasite_matura: double&lt;br&gt;sasite_humbura: double&lt;br&gt;statusi: varchar&lt;br&gt;created_at/updated_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="21">
+                    <mxGeometry x="10" y="30" width="330" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;b&gt;gyp_shperndares&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="440" width="350" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; kodi: varchar&lt;br&gt;geometry: geometry&lt;br&gt;thellesi: float&lt;br&gt;dimensioni: float&lt;br&gt;viti_instalimit: int&lt;br&gt;materiali_id: int&lt;br&gt;rruga_id: int&lt;br&gt;numri_kyqjeve: int&lt;br&gt;statusi: varchar&lt;br&gt;created_at/updated_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="23">
+                    <mxGeometry x="10" y="30" width="330" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;b&gt;ujemates_zonal&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="620" width="350" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; kodi: varchar&lt;br&gt;geometry: geometry&lt;br&gt;numri_kyqjeve: int&lt;br&gt;viti_instalimit: int&lt;br&gt;materiali_id: int&lt;br&gt;rruga_id: int&lt;br&gt;sasite_inkasuara: double&lt;br&gt;sasite_matura: double&lt;br&gt;sasite_humbura: double&lt;br&gt;statusi: varchar&lt;br&gt;created_at/updated_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="25">
+                    <mxGeometry x="10" y="30" width="330" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;b&gt;ujemates_kolektiv&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="800" width="350" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; kodi: varchar&lt;br&gt;geometry: geometry&lt;br&gt;ndertesa_id: int&lt;br&gt;rruga_id: int&lt;br&gt;pronari_id: varchar&lt;br&gt;lloji_perdorimit_id: int&lt;br&gt;viti_instalimit: int&lt;br&gt;sasite_inkasuara/matura/humbura: double&lt;br&gt;statusi: varchar&lt;br&gt;created_at/updated_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="27">
+                    <mxGeometry x="10" y="30" width="330" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;b&gt;ujemates_individual&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="960" width="350" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; kodi: varchar&lt;br&gt;geometry: geometry&lt;br&gt;pronari_id: varchar&lt;br&gt;ndertesa_id: int&lt;br&gt;rruga_id: int&lt;br&gt;lloji_perdorimit_id: int&lt;br&gt;viti_kyqjes: int&lt;br&gt;ndertimi_lloji: varchar&lt;br&gt;kati: int&lt;br&gt;sasite_inkasuara/matura: double&lt;br&gt;borxhi: double&lt;br&gt;statusi: varchar&lt;br&gt;created_at/updated_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="29">
+                    <mxGeometry x="10" y="30" width="330" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;b&gt;SEKTORI 3: NDËRTESAT &amp; SHTËPITË&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="80" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;b&gt;llojet_ndertesave&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="120" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; emri: varchar&lt;br&gt;pershkrim: text&lt;br&gt;created_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="32">
+                    <mxGeometry x="10" y="30" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;b&gt;llojet_perdorimit&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="240" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; emri: varchar&lt;br&gt;pershkrim: text&lt;br&gt;created_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="34">
+                    <mxGeometry x="10" y="30" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;b&gt;ndertesat&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="360" width="300" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; objekt_id: varchar&lt;br&gt;geometry: geometry&lt;br&gt;adresa: varchar&lt;br&gt;rruga_id: int&lt;br&gt;lloji_id: int&lt;br&gt;pronari_investitori: varchar&lt;br&gt;numri_etazheve: int&lt;br&gt;pershkrimi_etazhave: varchar&lt;br&gt;viti_ndertimit: int&lt;br&gt;statusi: varchar&lt;br&gt;created_at/updated_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="36">
+                    <mxGeometry x="10" y="30" width="280" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;b&gt;pjeset_ndertesave&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="580" width="300" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;ndertesa_id: int&lt;br&gt;emri: varchar&lt;br&gt;lloji: varchar&lt;br&gt;kati: int&lt;br&gt;siperfaqa: double&lt;br&gt;numri_dhomave: int&lt;br&gt;statusi_pronaresise: varchar&lt;br&gt;pronari_id: varchar&lt;br&gt;&lt;u&gt;FK,UK&lt;/u&gt; ujemates_individual_id: int&lt;br&gt;pershkrim: text&lt;br&gt;created_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="38">
+                    <mxGeometry x="10" y="30" width="280" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;b&gt;shtepite_individuale&lt;/b&gt;&lt;br&gt;___________________" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="800" width="300" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;ndertesa_id: int&lt;br&gt;numri_banesorve: int&lt;br&gt;ka_kopsht: boolean&lt;br&gt;siperfaqa_kopshtit: double&lt;br&gt;lloji_shtepise: varchar&lt;br&gt;created_at: timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="40">
+                    <mxGeometry x="10" y="30" width="280" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;b&gt;TABELAT E LIDHJEVE&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="810" width="980" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="20" y="850" width="960" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;b&gt;lidhje_gyp_furnizim_zonal&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;" vertex="1" parent="43">
+                    <mxGeometry width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="gyp_furnizimi_id&lt;br&gt;ujemates_zonal_id&lt;br&gt;data_lidhjes&lt;br&gt;statusi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="44">
+                    <mxGeometry x="10" y="25" width="130" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;b&gt;lidhje_gyp_shperndares_zonal&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;" vertex="1" parent="43">
+                    <mxGeometry x="160" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="gyp_shperndares_id&lt;br&gt;ujemates_zonal_id&lt;br&gt;data_lidhjes&lt;br&gt;statusi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="46">
+                    <mxGeometry x="10" y="25" width="130" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="&lt;b&gt;lidhje_zonal_individual&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="43">
+                    <mxGeometry x="320" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="ujemates_zonal_id&lt;br&gt;ujemates_individual_id&lt;br&gt;data_lidhjes&lt;br&gt;statusi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="48">
+                    <mxGeometry x="10" y="25" width="130" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;b&gt;lidhje_kolektiv_individual&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="43">
+                    <mxGeometry x="480" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="ujemates_kolektiv_id&lt;br&gt;ujemates_individual_id&lt;br&gt;data_lidhjes&lt;br&gt;statusi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="50">
+                    <mxGeometry x="10" y="25" width="130" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&lt;b&gt;lidhje_gyp_shperndares_individual&lt;/b&gt;&lt;br&gt;(1:M)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="43">
+                    <mxGeometry x="640" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="gyp_shperndares_id&lt;br&gt;ujemates_individual_id&lt;br&gt;data_lidhjes&lt;br&gt;statusi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="52">
+                    <mxGeometry x="10" y="25" width="130" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="20" y="960" width="960" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="&lt;b&gt;lidhje_rruge_ndertesa&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="54">
+                    <mxGeometry width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="rruge_id&lt;br&gt;ndertesa_id&lt;br&gt;lloji_lidhjes&lt;br&gt;numer_adrese" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="55">
+                    <mxGeometry x="10" y="25" width="130" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="&lt;b&gt;lidhje_rruge_shtepi&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="54">
+                    <mxGeometry x="160" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="rruge_id&lt;br&gt;shtepi_individuale_id&lt;br&gt;numer_adrese" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="57">
+                    <mxGeometry x="10" y="25" width="130" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="&lt;b&gt;lidhje_ndertesa_ujemates_kolektiv&lt;/b&gt;&lt;br&gt;(1:1 / 1:1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="54">
+                    <mxGeometry x="320" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="ndertesa_id&lt;br&gt;ujemates_kolektiv_id&lt;br&gt;data_lidhjes&lt;br&gt;statusi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="59">
+                    <mxGeometry x="10" y="25" width="130" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="&lt;b&gt;lidhje_gyp_shperndares_ndertesa&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="54">
+                    <mxGeometry x="480" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="gyp_shperndares_id&lt;br&gt;ndertesa_id&lt;br&gt;data_lidhjes&lt;br&gt;statusi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="61">
+                    <mxGeometry x="10" y="25" width="130" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;b&gt;lidhje_gyp_shperndares_shtepi&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="54">
+                    <mxGeometry x="640" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="gyp_shperndares_id&lt;br&gt;shtepi_individuale_id&lt;br&gt;data_lidhjes&lt;br&gt;statusi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="63">
+                    <mxGeometry x="10" y="25" width="130" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="20" y="1070" width="960" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="&lt;b&gt;lidhje_pronar_ujemates_individual&lt;/b&gt;&lt;br&gt;(1:1 / 1:1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" vertex="1" parent="65">
+                    <mxGeometry width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="pronar_id&lt;br&gt;ujemates_individual_id&lt;br&gt;data_lidhjes&lt;br&gt;statusi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="66">
+                    <mxGeometry x="10" y="25" width="130" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="&lt;b&gt;lidhje_pronar_ujemates_kolektiv&lt;/b&gt;&lt;br&gt;(M:1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" vertex="1" parent="65">
+                    <mxGeometry x="160" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="pronar_id&lt;br&gt;ujemates_kolektiv_id&lt;br&gt;lloji_pronarit&lt;br&gt;pjesa_perqindje" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="68">
+                    <mxGeometry x="10" y="25" width="130" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="&lt;b&gt;lidhje_pronar_ujemates_zonal&lt;/b&gt;&lt;br&gt;(M:1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" vertex="1" parent="65">
+                    <mxGeometry x="320" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="pronar_id&lt;br&gt;ujemates_zonal_id&lt;br&gt;data_lidhjes&lt;br&gt;statusi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="70">
+                    <mxGeometry x="10" y="25" width="130" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="&lt;b&gt;lidhje_pronar_pjese_ndertese&lt;/b&gt;&lt;br&gt;(1:1 / 1:1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" vertex="1" parent="65">
+                    <mxGeometry x="480" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="pronar_id&lt;br&gt;pjese_ndertese_id&lt;br&gt;lloji_pronarit&lt;br&gt;data_pronarsise" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="72">
+                    <mxGeometry x="10" y="25" width="130" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="&lt;b&gt;lidhje_pronar_ndertese&lt;/b&gt;&lt;br&gt;(M:1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" vertex="1" parent="65">
+                    <mxGeometry x="640" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="pronar_id&lt;br&gt;ndertesa_id&lt;br&gt;lloji_pronarit&lt;br&gt;pjesa_perqindje" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="74">
+                    <mxGeometry x="10" y="25" width="130" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="&lt;b&gt;lidhje_pronar_shtepi&lt;/b&gt;&lt;br&gt;(1:1 / 1:1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" vertex="1" parent="65">
+                    <mxGeometry x="800" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="pronar_id&lt;br&gt;shtepi_individuale_id&lt;br&gt;lloji_pronarit&lt;br&gt;data_pronarsise" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="76">
+                    <mxGeometry x="10" y="25" width="130" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="1:M" style="endArrow=open;html=1;rounded=0;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0.01;entryY=0.152;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="15">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="20" y="160" as="sourcePoint"/>
+                        <mxPoint x="-10" y="310" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint y="160"/>
+                            <mxPoint y="320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="1:M" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="14" target="16">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="450" as="sourcePoint"/>
+                        <mxPoint x="160" y="470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="1:M" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.2;entryY=0;dashed=1;" edge="1" parent="1" source="19" target="21">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="420" y="220" as="sourcePoint"/>
+                        <mxPoint x="420" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="81" value="1:M" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="21" target="44">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="505" y="420" as="sourcePoint"/>
+                        <mxPoint x="75" y="850" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="82" value="1:1" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.2;entryY=0;" edge="1" parent="1" source="44" target="25">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="75" y="930" as="sourcePoint"/>
+                        <mxPoint x="420" y="620" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" value="1:M" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="25" target="48">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="505" y="780" as="sourcePoint"/>
+                        <mxPoint x="395" y="850" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" value="1:1" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.2;entryY=0;" edge="1" parent="1" source="48" target="29">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="395" y="930" as="sourcePoint"/>
+                        <mxPoint x="420" y="960" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" value="1:1" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="16" target="66">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="630" as="sourcePoint"/>
+                        <mxPoint x="75" y="1110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="86" value="1:1" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.2;entryY=0;" edge="1" parent="1" source="66" target="29">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="75" y="1150" as="sourcePoint"/>
+                        <mxPoint x="420" y="960" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" value="1:1" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="36" target="59">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="860" y="560" as="sourcePoint"/>
+                        <mxPoint x="395" y="960" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" value="1:1" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.2;entryY=0;" edge="1" parent="1" source="59" target="27">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="395" y="1040" as="sourcePoint"/>
+                        <mxPoint x="420" y="800" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" value="1:M" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.2;entryY=0;" edge="1" parent="1" source="32" target="36">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="800" y="220" as="sourcePoint"/>
+                        <mxPoint x="800" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="90" value="1:M" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="36" target="38">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="860" y="560" as="sourcePoint"/>
+                        <mxPoint x="860" y="580" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="1:1" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="38" target="72">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="860" y="780" as="sourcePoint"/>
+                        <mxPoint x="555" y="1070" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" value="1:M" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.2;entryY=0;dashed=1;" edge="1" parent="1" source="34" target="29">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="800" y="340" as="sourcePoint"/>
+                        <mxPoint x="420" y="960" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="93" value="1:M" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="14" target="55">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="360" as="sourcePoint"/>
+                        <mxPoint x="75" y="1000" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="94" value="1:1" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.2;entryY=0;" edge="1" parent="1" source="55" target="36">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="75" y="1080" as="sourcePoint"/>
+                        <mxPoint x="800" y="460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" value="&lt;b&gt;LEGJENDA&lt;/b&gt;&lt;br&gt;___________________&lt;br&gt;&lt;br&gt;&lt;b&gt;SEKTORET:&lt;/b&gt;&lt;br&gt;🟢 SEKTORI 1: Pronarët &amp; Rrugët&lt;br&gt;🔵 SEKTORI 2: Rrjeti i Ujësjellësit&lt;br&gt;🟡 SEKTORI 3: Ndërtesat &amp; Shtëpitē&lt;br&gt;&lt;br&gt;&lt;b&gt;NGJYRAT:&lt;/b&gt;&lt;br&gt;🟣 Pronarët &amp; Lidhje&lt;br&gt;🟢 Rrugët &amp; Kategoritë&lt;br&gt;🔴 Gypat e Ujësjellësit&lt;br&gt;🔵 Ujëmatesat&lt;br&gt;🟡 Ndërtesat &amp; Llotjet&lt;br&gt;⚪ Pjesët &amp; Shtëpitē&lt;br&gt;🟠 Tabelat e Lidhjeve" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="1030" y="120" width="250" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="&lt;b&gt;STATISTIKAT E SISTEMIT&lt;/b&gt;&lt;br&gt;___________________&lt;br&gt;&lt;br&gt;• 16 Tabela Kryesore&lt;br&gt;• 16 Tabela Lidhjesh&lt;br&gt;• 32 Tabela Total&lt;br&gt;• 5 Llote (Lookup Tables)&lt;br&gt;• 8 Funksione SQL&lt;br&gt;• 4 Trigger SQL&lt;br&gt;• 6 View Raportesh&lt;br&gt;• 150+ Kolona Total&lt;br&gt;&lt;br&gt;&lt;i&gt;Sistemi i Plotë i Menaxhimit të Ujësjellësit&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="1030" y="390" width="250" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="&lt;b&gt;FUNKSIONALITETE KRYESORE&lt;/b&gt;&lt;br&gt;___________________&lt;br&gt;&lt;br&gt;✓ Menaxhim i Rrjetit të Ujësjellësit&lt;br&gt;✓ Gjurmim i Humbjeve të Ujit&lt;br&gt;✓ Faturim dhe Borxhe Pronarësh&lt;br&gt;✓ Raporte Sipas Rrugëve/Zonave&lt;br&gt;✓ Lidhje GIS me QGIS/GeoServer&lt;br&gt;✓ Analiza të Avancuara GIS&lt;br&gt;✓ CRUD Plotë për të gjithë sistemin&lt;br&gt;✓ Backup dhe Restore Automatik&lt;br&gt;&lt;br&gt;&lt;i&gt;Stack: PostgreSQL/PostGIS + GeoServer + Django + OpenLayers&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="1030" y="660" width="250" height="250" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
