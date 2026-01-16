@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7" pages="2">
   <diagram id="54Z8r0Q8AXjFjp57jenT" name="Page-1">
-    <mxGraphModel dx="1151" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="3453" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,81 +8,93 @@
           <mxGeometry height="60" width="400" x="410" y="70" as="geometry" />
         </mxCell>
         <mxCell id="11" parent="1" style="text;html=1;strokeColor=none;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;SEKTORI 1: PRONARËT &amp; RRUGËT&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="200" x="92.5" y="190" as="geometry" />
+          <mxGeometry height="30" width="200" x="90" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" value="&lt;b&gt;kategorite_rrugeve&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
+          <mxGeometry height="120" width="130" x="90" y="240" as="geometry">
+            <mxRectangle height="40" width="170" x="20" y="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" parent="12" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; kodi: varchar&lt;br&gt;emri: varchar&lt;br&gt;pershkrim: text&lt;br&gt;prioritet: int&lt;br&gt;created_at: timestamp" vertex="1">
+          <mxGeometry height="90" width="110" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="14" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" value="&lt;b&gt;rruget&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
-          <mxGeometry height="110" width="170" x="70" y="240" as="geometry">
-            <mxRectangle height="40" width="170" x="90" y="390" as="alternateBounds" />
-          </mxGeometry>
+          <mxGeometry height="170" width="170" x="90" y="390" as="geometry" />
         </mxCell>
-        <mxCell id="15" parent="14" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; kodi: varchar&lt;br&gt;emri: varchar&lt;br&gt;geometry: geometry&lt;br&gt;kategori_id: int&lt;br&gt;created_at/updated_at: timestamp" vertex="1">
-          <mxGeometry height="80" width="160" x="5" y="30" as="geometry" />
+        <mxCell id="15" parent="14" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; kodi: varchar&lt;br&gt;emri: varchar&lt;br&gt;geometry: geometry&lt;br&gt;kategori_id: int&lt;br&gt;gjatesia/gjeresia: double&lt;br&gt;statusi: varchar&lt;br&gt;zona: varchar&lt;br&gt;viti_ndertimit: int&lt;br&gt;materiali: varchar&lt;br&gt;created_at/updated_at: timestamp" vertex="1">
+          <mxGeometry height="140" width="160" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" value="&lt;b&gt;pronaret&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
+          <mxGeometry height="220" width="180" x="90" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="16" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" value="&lt;u&gt;PK&lt;/u&gt; id: varchar(20)&lt;br&gt;emri/mbiemri: varchar&lt;br&gt;lloji: varchar&lt;br&gt;nid: varchar&lt;br&gt;kontakti: varchar&lt;br&gt;adresa: varchar&lt;br&gt;rruga_id: int&lt;br&gt;borxhi_aktual: double&lt;br&gt;&lt;hr&gt;&lt;b&gt;Sasitë Mujore:&lt;/b&gt;&lt;br&gt;sasia_janar ... dhjetor&lt;br&gt;sasia_total_vjetore&lt;br&gt;sasia_pa_paguar&lt;br&gt;&lt;hr&gt;data_regjistrimit: date&lt;br&gt;statusi: varchar&lt;br&gt;created_at/updated_at: timestamp" vertex="1">
+          <mxGeometry height="190" width="150" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="18" parent="1" style="text;html=1;strokeColor=none;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;SEKTORI 2: RRJETI I UJËSJELLËSIT&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="260" x="380" y="190" as="geometry" />
+          <mxGeometry height="30" width="260" x="380" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="21" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;" value="&lt;b&gt;gyp_furnizimi&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
-          <mxGeometry height="50" width="170" x="325" y="240" as="geometry">
-            <mxRectangle height="180" width="190" x="320" y="340" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="19" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;" value="&lt;b&gt;materialet&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
+          <mxGeometry height="90" width="130" x="320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="19" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; emri: varchar&lt;br&gt;pershkrim: text&lt;br&gt;created_at: timestamp" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;" value="&lt;b&gt;gyp_furnizimi&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
+          <mxGeometry height="180" width="190" x="320" y="340" as="geometry" />
         </mxCell>
         <mxCell id="22" parent="21" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; kodi: varchar&lt;br&gt;geometry: geometry&lt;br&gt;dimensioni: float&lt;br&gt;viti_instalimit: int&lt;br&gt;thellesi: float&lt;br&gt;materiali_id: int&lt;br&gt;rruga_id: int&lt;br&gt;sasite_inkasuara: double&lt;br&gt;sasite_matura: double&lt;br&gt;sasite_humbura: double&lt;br&gt;statusi: varchar&lt;br&gt;created_at/updated_at: timestamp" vertex="1">
           <mxGeometry height="140" width="170" x="10" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="23" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;" value="&lt;b&gt;gyp_shperndares&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
-          <mxGeometry height="40" width="170" x="320" y="530" as="geometry">
-            <mxRectangle height="160" width="180" x="320" y="530" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="23" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;" value="&lt;b&gt;gyp_shperndares&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
+          <mxGeometry height="160" width="180" x="320" y="530" as="geometry" />
         </mxCell>
         <mxCell id="24" parent="23" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; kodi: varchar&lt;br&gt;geometry: geometry&lt;br&gt;thellesi: float&lt;br&gt;dimensioni: float&lt;br&gt;viti_instalimit: int&lt;br&gt;materiali_id: int&lt;br&gt;rruga_id: int&lt;br&gt;numri_kyqjeve: int&lt;br&gt;statusi: varchar&lt;br&gt;created_at/updated_at: timestamp" vertex="1">
           <mxGeometry height="120" width="160" x="10" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="25" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="&lt;b&gt;ujemates_zonal&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
-          <mxGeometry height="40" width="170" x="540" y="240" as="geometry">
-            <mxRectangle height="165" width="195" x="535" y="235" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="25" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="&lt;b&gt;ujemates_zonal&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
+          <mxGeometry height="165" width="195" x="535" y="235" as="geometry" />
         </mxCell>
         <mxCell id="26" parent="25" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; kodi: varchar&lt;br&gt;geometry: geometry&lt;br&gt;numri_kyqjeve: int&lt;br&gt;viti_instalimit: int&lt;br&gt;materiali_id: int&lt;br&gt;rruga_id: int&lt;br&gt;sasite_inkasuara: double&lt;br&gt;sasite_matura: double&lt;br&gt;sasite_humbura: double&lt;br&gt;statusi: varchar&lt;br&gt;created_at/updated_at: timestamp" vertex="1">
           <mxGeometry height="120" width="160" x="10" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="27" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="&lt;b&gt;ujemates_kolektiv&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
-          <mxGeometry height="40" width="170" x="555" y="410" as="geometry">
-            <mxRectangle height="150" width="205" x="555" y="410" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="27" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="&lt;b&gt;ujemates_kolektiv&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
+          <mxGeometry height="150" width="205" x="555" y="410" as="geometry" />
         </mxCell>
         <mxCell id="28" parent="27" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; kodi: varchar&lt;br&gt;geometry: geometry&lt;br&gt;ndertesa_id: int&lt;br&gt;rruga_id: int&lt;br&gt;pronari_id: varchar&lt;br&gt;lloji_perdorimit_id: int&lt;br&gt;viti_instalimit: int&lt;br&gt;sasite_inkasuara/matura/humbura: double&lt;br&gt;statusi: varchar&lt;br&gt;created_at/updated_at: timestamp" vertex="1">
           <mxGeometry height="100" width="200" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="31" parent="1" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;SEKTORI 3: NDËRTESAT &amp; SHTËPITË&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="320" x="780" y="190" as="geometry" />
+          <mxGeometry height="30" width="320" x="780" y="200" as="geometry" />
         </mxCell>
-        <object label="&lt;b&gt;ndertesat&lt;/b&gt;&lt;br&gt;___________________" test="addfasdfasd" id="36">
-          <mxCell parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1">
-            <mxGeometry height="160" width="170" x="810" y="240" as="geometry">
-              <mxRectangle height="40" width="170" x="810" y="250" as="alternateBounds" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;geometry: geometry&lt;br&gt;adresa: varchar&lt;br&gt;lloji: varchar&lt;br&gt;pronari_investitori: varchar&lt;div&gt;etazheve: etazha&lt;br&gt;numri_etazheve: int&lt;br&gt;viti_ndertimit: int&lt;/div&gt;&lt;div&gt;adresa: varchar (Rr.&quot;test&quot;)&lt;br&gt;created_at/updated_at: timestamp&lt;/div&gt;" dafdf="" id="37">
-          <mxCell parent="36" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1">
-            <mxGeometry height="130" width="160" x="5" y="30" as="geometry" />
-          </mxCell>
-        </object>
+        <mxCell id="32" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;" value="&lt;b&gt;llojet_ndertesave&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
+          <mxGeometry height="100" width="140" x="810" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="32" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; emri: varchar&lt;br&gt;pershkrim: text&lt;br&gt;created_at: timestamp" vertex="1">
+          <mxGeometry height="60" width="110" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;" value="&lt;b&gt;llojet_perdorimit&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
+          <mxGeometry height="90" width="130" x="810" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="34" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; emri: varchar&lt;br&gt;pershkrim: text&lt;br&gt;created_at: timestamp" vertex="1">
+          <mxGeometry height="60" width="110" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;" value="&lt;b&gt;ndertesat&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
+          <mxGeometry height="190" width="170" x="810" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="37" parent="36" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; objekt_id: varchar&lt;br&gt;geometry: geometry&lt;br&gt;adresa: varchar&lt;br&gt;rruga_id: int&lt;br&gt;lloji_id: int&lt;br&gt;pronari_investitori: varchar&lt;br&gt;numri_etazheve: int&lt;br&gt;pershkrimi_etazhave: varchar&lt;br&gt;viti_ndertimit: int&lt;br&gt;statusi: varchar&lt;br&gt;created_at/updated_at: timestamp" vertex="1">
+          <mxGeometry height="160" width="160" x="10" y="30" as="geometry" />
+        </mxCell>
         <mxCell id="38" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;" value="&lt;b&gt;pjeset_ndertesave&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
-          <mxGeometry height="190" width="170" x="810" y="455" as="geometry">
-            <mxRectangle height="40" width="170" x="810" y="455" as="alternateBounds" />
-          </mxGeometry>
+          <mxGeometry height="190" width="170" x="810" y="670" as="geometry" />
         </mxCell>
-        <mxCell id="39" parent="38" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;fk_ndertesa_id: int&lt;br&gt;pronari: varchar&lt;div&gt;pronari_id: varchar (Bill000..)&lt;br&gt;lloji: varchar (afarzem,amiseri)&lt;br&gt;kati: int&lt;div&gt;hyrja: int&lt;/div&gt;&lt;div&gt;adresa: varchar (Rr.&quot;test&quot;)&lt;br&gt;&lt;u&gt;FK,UK&lt;/u&gt; ujemates_individual_id: int&lt;br&gt;created_at: timestamp&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="39" parent="38" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;ndertesa_id: int&lt;br&gt;emri: varchar&lt;br&gt;lloji: varchar&lt;br&gt;kati: int&lt;br&gt;siperfaqa: double&lt;br&gt;numri_dhomave: int&lt;br&gt;statusi_pronaresise: varchar&lt;br&gt;pronari_id: varchar&lt;br&gt;&lt;u&gt;FK,UK&lt;/u&gt; ujemates_individual_id: int&lt;br&gt;pershkrim: text&lt;br&gt;created_at: timestamp" vertex="1">
           <mxGeometry height="160" width="160" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="40" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;" value="&lt;b&gt;shtepite_individuale&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
-          <mxGeometry height="130" width="170" x="810" y="740" as="geometry">
-            <mxRectangle height="40" width="170" x="820" y="762" as="alternateBounds" />
-          </mxGeometry>
+          <mxGeometry height="130" width="150" x="810" y="870" as="geometry" />
         </mxCell>
-        <mxCell id="41" parent="40" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id_sh: int&lt;br&gt;lloji: varchar (amviseri, afarizem)&lt;div&gt;etazha: varchar(p+1)&lt;/div&gt;&lt;div&gt;pronari: varchar&lt;/div&gt;&lt;div&gt;id_pronarit: varchar (Bill....)&lt;/div&gt;&lt;div&gt;adresa: varchar (Rr.&quot;test&quot;)&lt;/div&gt;&lt;div&gt;gjeometria: geom&lt;br&gt;created_at: timestamp&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="150" x="10" y="30" as="geometry" />
+        <mxCell id="41" parent="40" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;ndertesa_id: int&lt;br&gt;numri_banesorve: int&lt;br&gt;ka_kopsht: boolean&lt;br&gt;siperfaqa_kopshtit: double&lt;br&gt;lloji_shtepise: varchar&lt;br&gt;created_at: timestamp" vertex="1">
+          <mxGeometry height="100" width="140" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="42" parent="1" style="text;html=1;strokeColor=none;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;TABELAT E LIDHJEVE&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="980" x="85" y="1030" as="geometry" />
@@ -195,6 +207,36 @@
         <mxCell id="77" parent="76" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="pronar_id&lt;br&gt;shtepi_individuale_id&lt;br&gt;lloji_pronarit&lt;br&gt;data_pronarsise" vertex="1">
           <mxGeometry height="45" width="130" x="10" y="25" as="geometry" />
         </mxCell>
+        <mxCell id="78" edge="1" parent="1" style="endArrow=open;html=1;rounded=0;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0.01;entryY=0.152;entryDx=0;entryDy=0;entryPerimeter=0;" target="15" value="1:M">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="280" />
+              <mxPoint x="80" y="440" />
+            </Array>
+            <mxPoint x="90" y="280" as="sourcePoint" />
+            <mxPoint x="60" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79" edge="1" parent="1" source="15" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.992;exitY=0.068;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#cdeb8b;strokeColor=#66FF66;" value="1:M">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="430" />
+              <mxPoint x="280" y="690" />
+            </Array>
+            <mxPoint x="230" y="570" as="sourcePoint" />
+            <mxPoint x="270" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="80" edge="1" parent="1" style="endArrow=open;html=1;rounded=0;fontSize=10;dashed=1;entryX=0.001;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" target="22" value="1:M">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="280" />
+              <mxPoint x="310" y="380" />
+            </Array>
+            <mxPoint x="330" y="280" as="sourcePoint" />
+            <mxPoint x="410" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="81" edge="1" parent="1" source="22" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0;exitY=0;fillColor=#f8cecc;strokeColor=#b85450;exitDx=0;exitDy=0;" target="44" value="1:M">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
@@ -240,6 +282,16 @@
             <mxPoint x="570" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="85" edge="1" parent="1" source="17" style="endArrow=open;html=1;rounded=0;fontSize=10;entryX=0.004;entryY=0.207;fillColor=#e1d5e7;strokeColor=#9673a6;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.002;exitY=0.058;exitDx=0;exitDy=0;exitPerimeter=0;" target="66" value="1:1">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="630" />
+              <mxPoint x="70" y="1310" />
+            </Array>
+            <mxPoint x="370" y="750" as="sourcePoint" />
+            <mxPoint x="145" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="86" edge="1" parent="1" source="66" style="endArrow=open;html=1;rounded=0;fontSize=10;entryX=0.075;entryY=0.006;fillColor=#0050ef;strokeColor=#001DBC;entryDx=0;entryDy=0;entryPerimeter=0;" target="30" value="1:1">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
@@ -277,6 +329,16 @@
             <mxPoint x="490" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="89" edge="1" parent="1" source="33" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.005;exitY=0.191;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#ffff88;strokeColor=#999900;entryX=-0.003;entryY=0.193;entryDx=0;entryDy=0;entryPerimeter=0;" target="37" value="1:M">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="280" />
+              <mxPoint x="780" y="530" />
+            </Array>
+            <mxPoint x="870" y="340" as="sourcePoint" />
+            <mxPoint x="870" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="90" edge="1" parent="1" source="36" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="38" value="1:M">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="930" y="680" as="sourcePoint" />
@@ -285,32 +347,49 @@
         </mxCell>
         <mxCell id="91" edge="1" parent="1" source="38" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="72" value="1:1">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="895" y="660" />
-              <mxPoint x="1090" y="660" />
-              <mxPoint x="1090" y="1290" />
-              <mxPoint x="640" y="1290" />
-            </Array>
             <mxPoint x="930" y="900" as="sourcePoint" />
             <mxPoint x="625" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="92" edge="1" parent="1" source="35" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=-0.01;exitY=0.15;dashed=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" target="30" value="1:M">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="400" />
+              <mxPoint x="790" y="620" />
+            </Array>
+            <mxPoint x="870" y="460" as="sourcePoint" />
+            <mxPoint x="490" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="93" edge="1" parent="1" source="15" style="endArrow=open;html=1;rounded=0;fontSize=10;entryX=0.007;entryY=0.408;fillColor=#fff2cc;strokeColor=#d6b656;exitX=-0.005;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="55" value="1:M">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="50" y="276" />
+              <mxPoint x="60" y="430" />
               <mxPoint x="60" y="1120" />
-              <mxPoint x="60" y="1220" />
+              <mxPoint x="60" y="1230" />
             </Array>
             <mxPoint x="370" y="480" as="sourcePoint" />
             <mxPoint x="145" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="94" edge="1" parent="1" source="55" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.99;exitY=0.888;fillColor=#e3c800;strokeColor=#B09500;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.001;entryY=0.064;entryDx=0;entryDy=0;entryPerimeter=0;" target="37" value="1:1">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="1280" />
+              <mxPoint x="890" y="1280" />
+              <mxPoint x="890" y="1040" />
+              <mxPoint x="770" y="1040" />
+              <mxPoint x="770" y="510" />
+            </Array>
+            <mxPoint x="145" y="1200" as="sourcePoint" />
+            <mxPoint x="870" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" value="&lt;b&gt;LEGJENDA&lt;/b&gt;&lt;br&gt;___________________&lt;br&gt;&lt;br&gt;&lt;b&gt;SEKTORET:&lt;/b&gt;&lt;br&gt;🟢 SEKTORI 1: Pronarët &amp; Rrugët&lt;br&gt;🔵 SEKTORI 2: Rrjeti i Ujësjellësit&lt;br&gt;🟡 SEKTORI 3: Ndërtesat &amp; Shtëpitē&lt;br&gt;&lt;br&gt;&lt;b&gt;NGJYRAT:&lt;/b&gt;&lt;br&gt;🟣 Pronarët &amp; Lidhje&lt;br&gt;🟢 Rrugët &amp; Kategoritë&lt;br&gt;🔴 Gypat e Ujësjellësit&lt;br&gt;🔵 Ujëmatesat&lt;br&gt;🟡 Ndërtesat &amp; Llotjet&lt;br&gt;⚪ Pjesët &amp; Shtëpitē&lt;br&gt;🟠 Tabelat e Lidhjeve" vertex="1">
           <mxGeometry height="210" width="205" x="87.5" y="820" as="geometry" />
         </mxCell>
         <mxCell id="96" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="&lt;b&gt;STATISTIKAT E SISTEMIT&lt;/b&gt;&lt;br&gt;___________________&lt;br&gt;&lt;br&gt;• 16 Tabela Kryesore&lt;br&gt;• 16 Tabela Lidhjesh&lt;br&gt;• 32 Tabela Total&lt;br&gt;• 5 Llote (Lookup Tables)&lt;br&gt;• 8 Funksione SQL&lt;br&gt;• 4 Trigger SQL&lt;br&gt;• 6 View Raportesh&lt;br&gt;• 150+ Kolona Total&lt;br&gt;&lt;br&gt;&lt;i&gt;Sistemi i Plotë i Menaxhimit të Ujësjellësit&lt;/i&gt;" vertex="1">
-          <mxGeometry height="180" width="180" x="320" y="800" as="geometry" />
+          <mxGeometry height="180" width="180" x="320" y="740" as="geometry" />
         </mxCell>
         <mxCell id="100" edge="1" parent="1" source="26" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.017;exitY=0.047;dashed=1;fillColor=#d80073;strokeColor=#A50040;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -322,10 +401,8 @@
             <mxPoint x="580" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="29" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="&lt;b&gt;ujemates_individual&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
-          <mxGeometry height="40" width="170" x="575" y="580" as="geometry">
-            <mxRectangle height="200" width="175" x="575" y="580" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="29" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="&lt;b&gt;ujemates_individual&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
+          <mxGeometry height="200" width="175" x="575" y="580" as="geometry" />
         </mxCell>
         <mxCell id="30" parent="29" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; kodi: varchar&lt;br&gt;geometry: geometry&lt;br&gt;pronari_id: varchar&lt;br&gt;ndertesa_id: int&lt;br&gt;rruga_id: int&lt;br&gt;lloji_perdorimit_id: int&lt;br&gt;viti_kyqjes: int&lt;br&gt;ndertimi_lloji: varchar&lt;br&gt;kati: int&lt;br&gt;sasite_inkasuara/matura: double&lt;br&gt;borxhi: double&lt;br&gt;statusi: varchar&lt;br&gt;created_at/updated_at: timestamp" vertex="1">
           <mxGeometry height="160" width="170" x="10" y="30" as="geometry" />
@@ -340,57 +417,6 @@
             </Array>
             <mxPoint x="330" y="590" as="sourcePoint" />
             <mxPoint x="570" y="620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lVsuMPT0frejzINOY-wN-106" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="780" y="535" />
-              <mxPoint x="780" y="300" />
-            </Array>
-            <mxPoint x="820" y="535" as="sourcePoint" />
-            <mxPoint x="820" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lVsuMPT0frejzINOY-wN-116" edge="1" parent="1" source="15" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="1:M">
-          <mxGeometry height="50" relative="1" width="50" x="-0.5787" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="260" y="310" />
-              <mxPoint x="260" y="230" />
-              <mxPoint x="1000" y="230" />
-              <mxPoint x="1000" y="380" />
-            </Array>
-            <mxPoint x="340" y="410" as="sourcePoint" />
-            <mxPoint x="980" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lVsuMPT0frejzINOY-wN-117" edge="1" parent="1" source="15" style="endArrow=open;html=1;rounded=0;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;exitX=0.987;exitY=0.247;exitDx=0;exitDy=0;exitPerimeter=0;" value="1:M">
-          <mxGeometry height="50" relative="1" width="50" x="-0.86" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="280" y="290" />
-              <mxPoint x="280" y="720" />
-              <mxPoint x="520" y="720" />
-              <mxPoint x="520" y="560" />
-              <mxPoint x="770" y="560" />
-              <mxPoint x="770" y="590" />
-            </Array>
-            <mxPoint x="260" y="470" as="sourcePoint" />
-            <mxPoint x="820" y="590" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lVsuMPT0frejzINOY-wN-119" edge="1" parent="1" source="15" style="endArrow=open;html=1;rounded=0;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;exitX=0.018;exitY=0.443;exitDx=0;exitDy=0;exitPerimeter=0;" value="1:M">
-          <mxGeometry height="50" relative="1" width="50" x="-0.7907" y="-2" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="40" y="310" />
-              <mxPoint x="40" y="1020" />
-              <mxPoint x="1000" y="1020" />
-              <mxPoint x="1000" y="839" />
-            </Array>
-            <mxPoint x="280" y="740" as="sourcePoint" />
-            <mxPoint x="970" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
