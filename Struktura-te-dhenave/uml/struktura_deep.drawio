@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7" pages="2">
   <diagram id="54Z8r0Q8AXjFjp57jenT" name="Page-1">
-    <mxGraphModel dx="1151" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="708" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,7 +63,7 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;geometry: geometry&lt;br&gt;adresa: varchar&lt;br&gt;lloji: varchar&lt;br&gt;pronari_investitori: varchar&lt;div&gt;etazheve: etazha&lt;br&gt;numri_etazheve: int&lt;br&gt;viti_ndertimit: int&lt;/div&gt;&lt;div&gt;adresa: varchar (Rr.&quot;test&quot;)&lt;br&gt;created_at/updated_at: timestamp&lt;/div&gt;" dafdf="" id="37">
+        <object label="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;geometry: geometry&lt;br&gt;adresa: varchar&lt;br&gt;lloji: varchar (afarizem,banim)&lt;br&gt;pronari_investitori: varchar&lt;div&gt;etazheve: etazha&lt;br&gt;numri_etazheve: int&lt;br&gt;viti_ndertimit: int&lt;/div&gt;&lt;div&gt;adresa: varchar (Rr.&quot;test&quot;)&lt;br&gt;created_at/updated_at: timestamp&lt;/div&gt;" dafdf="" id="37">
           <mxCell parent="36" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1">
             <mxGeometry height="130" width="160" x="5" y="30" as="geometry" />
           </mxCell>
