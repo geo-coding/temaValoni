@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7" pages="2">
   <diagram id="54Z8r0Q8AXjFjp57jenT" name="Page-1">
-    <mxGraphModel dx="308" dy="145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="552" dy="302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
         <mxCell id="26" parent="25" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: varchar (UZ01)&lt;div&gt;fk_gypifurnizimit_id: varchar&lt;br&gt;numri_kyqjeve_konsumatore: int&lt;/div&gt;&lt;div&gt;numri_kyqjeve_gyp_shpernd: int&lt;/div&gt;&lt;div&gt;numri_kyqjeve_gyp_lidhes: int&lt;br&gt;viti_instalimit: int&lt;br&gt;materiali: varchar&lt;br&gt;adresa: varcha (emri rruges)&lt;br&gt;sasite_inkasuara: double&lt;br&gt;sasite_matura: double&lt;br&gt;sasite_humbura: double&lt;br&gt;&lt;div&gt;geometry: geometry (point)&lt;br&gt;created_at/updated_at: timestamp&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="170" x="10" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="lVsuMPT0frejzINOY-wN-120" edge="1" parent="25" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=light-dark(#5f84b4, #446e2c);entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="26" value="1:M">
+        <mxCell id="lVsuMPT0frejzINOY-wN-120" edge="1" parent="25" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=light-dark(#5f84b4, #446e2c);entryX=1.001;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;" target="26" value="1:M">
           <mxGeometry height="50" relative="1" width="50" x="0.8137" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -73,13 +73,28 @@
             <mxPoint y="-47" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="lVsuMPT0frejzINOY-wN-207" edge="1" parent="1" source="27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 4 1 4;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="555" />
+              <mxPoint x="850" y="990" />
+              <mxPoint x="950" y="990" />
+            </Array>
+            <mxPoint x="950" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVsuMPT0frejzINOY-wN-210" connectable="0" parent="lVsuMPT0frejzINOY-wN-207" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" value="uK-&amp;gt;gL--&amp;gt;sqarimi" vertex="1">
+          <mxGeometry relative="1" x="-0.2438" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="27" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;" value="&lt;b&gt;ujemates_kolektiv&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
-          <mxGeometry height="170" width="210" x="615" y="470" as="geometry">
+          <mxGeometry height="190" width="210" x="615" y="460" as="geometry">
             <mxRectangle height="40" width="170" x="540" y="440" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="28" parent="27" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;&lt;u&gt;UK&lt;/u&gt; kodi: varchar&lt;br&gt;fk_ndertesa_id: int (nr i nderteses)&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fk_gypLidhes_id: varchar(id e GypLidh)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;adresa: varchar (rrgua emri)&lt;br&gt;pronari_id: varchar (Bill00...)&lt;br&gt;lloji_perdorimit_id: int&lt;br&gt;viti_instalimit: int&lt;br&gt;sasite_inkasuara: double&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sasite_&lt;/span&gt;matura&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: double&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sasite_&lt;/span&gt;humbura: double&lt;/div&gt;&lt;div&gt;geometry: geometry&lt;br&gt;created_at/updated_at: timestamp&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="200" x="10" y="30" as="geometry" />
+        <mxCell id="28" parent="27" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: varchar (UK01)&lt;br&gt;fk_ndertesa_id: int (nr i nderteses)&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fk_gypLidhes_id: varchar(id e GypLidh)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;adresa: varchar (rrgua emri)&lt;br&gt;lloji_perdorimit: varchar (amiseri, afarizem)&lt;br&gt;viti_instalimit: int&lt;br&gt;sasite_inkasuara: double&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sasite_&lt;/span&gt;matura&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: double&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sasite_&lt;/span&gt;humbura: double&lt;/div&gt;&lt;div&gt;geometry: geometry&lt;br&gt;created_at/updated_at: timestamp&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="155" width="200" x="5" y="25" as="geometry" />
         </mxCell>
         <mxCell id="31" parent="1" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;SEKTORI 3: NDËRTESAT &amp;amp; SHTËPITË&amp;nbsp;&lt;/b&gt;&lt;b&gt;&amp;amp;&amp;nbsp; pronaret&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="320" x="820" y="190" as="geometry" />
@@ -119,10 +134,10 @@
           <mxGeometry height="209" width="982" x="83" y="1070" as="geometry" />
         </mxCell>
         <mxCell id="44" parent="43" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;align=center;verticalAlign=top;" value="&lt;span&gt;&lt;b style=&quot;&quot;&gt;lidhje_gyp_furnizim_zonal&lt;/b&gt;&lt;br&gt;(1:M / 1:1)&lt;/span&gt;" vertex="1">
-          <mxGeometry height="100" width="140" as="geometry" />
+          <mxGeometry height="100" width="150" as="geometry" />
         </mxCell>
-        <mxCell id="45" parent="44" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="gyp_furnizimi_id&lt;br&gt;ujemates_zonal_id&lt;br&gt;nje gyp furnizimi shume ujmatesa zonal&lt;div&gt;shfaq numirin e uj.zonal nge gyp furnizimi dhe emrin e gypit te furnizimmit&lt;/div&gt;" vertex="1">
-          <mxGeometry height="56.25" width="121.33333333333333" x="7.503333333333334" y="37.5" as="geometry" />
+        <mxCell id="45" parent="44" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;" value="gyp_furnizimi_id&lt;br&gt;ujemates_zonal_id&lt;br&gt;nje gyp furnizimi shume ujmatesa zonal&lt;div&gt;shfaq numirin e uj.zonal nge gyp furnizimi dhe emrin e gypit te furnizimmit&lt;/div&gt;&lt;div&gt;duhet te shfaq dhe nr te konsumatoreve qe jane te lidhur ne te&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="150" y="20.90909090909091" as="geometry" />
         </mxCell>
         <mxCell id="46" parent="43" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_gyp_shperndares_zonal&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" vertex="1">
           <mxGeometry height="100" width="150" x="160" as="geometry" />
@@ -148,13 +163,19 @@
         <mxCell id="lVsuMPT0frejzINOY-wN-148" parent="lVsuMPT0frejzINOY-wN-147" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="gyp_lidhes_id&lt;br&gt;ujemates_zonal_id&lt;br&gt;1 ujmates zonal shume gypa lidhes&lt;div&gt;shfaq numrin e lidhjeve te gypave ne ujmates zonal, dhe emrin e ujmatesit zonal&lt;/div&gt;" vertex="1">
           <mxGeometry height="68.74444444444444" width="130" x="10" y="31.255555555555556" as="geometry" />
         </mxCell>
+        <mxCell id="lVsuMPT0frejzINOY-wN-208" parent="43" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_gyp_lidhes_kolektiv&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" vertex="1">
+          <mxGeometry height="100" width="150" x="807" as="geometry" />
+        </mxCell>
+        <mxCell id="lVsuMPT0frejzINOY-wN-209" parent="lVsuMPT0frejzINOY-wN-208" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;" value="gyp_lidhes_id&lt;br&gt;ujemates_kolektiv_id&lt;br&gt;1 gyp lidhes shume ujmatesa kolektiv&lt;div&gt;shfaq numrin e lidhjeve te ujmatesave kolektiv ne gyp lidhes&lt;/div&gt;&lt;div&gt;numri i konsumatoreve ne ate gyp lidhes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="5" y="24.66363636363636" as="geometry" />
+        </mxCell>
         <mxCell id="54" connectable="0" parent="1" style="group;spacing=0;verticalAlign=top;horizontal=0;" value="" vertex="1">
           <mxGeometry height="100" width="960" x="90" y="1189" as="geometry" />
         </mxCell>
-        <mxCell id="55" parent="54" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_rruge_ndertesa&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" vertex="1">
+        <mxCell id="55" parent="54" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_ujmatesKolektiv_ndertesa&lt;/b&gt;&lt;br&gt;(1:1)" vertex="1">
           <mxGeometry height="80" width="140" as="geometry" />
         </mxCell>
-        <mxCell id="56" parent="55" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="rruge_id&lt;br&gt;ndertesa_id&lt;br&gt;lloji_lidhjes&lt;br&gt;numer_adrese" vertex="1">
+        <mxCell id="56" parent="55" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="ndertesa_id&lt;br&gt;ujmatesiKolektiv_id&lt;br&gt;ujematesi qe mate sasite e tera te nderteses" vertex="1">
           <mxGeometry height="45" width="121.33333333333333" x="4.041333333333333" y="23.504" as="geometry" />
         </mxCell>
         <mxCell id="57" parent="54" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_rruge_shtepi&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" vertex="1">
@@ -254,17 +275,6 @@
             <mxPoint x="930" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="93" edge="1" parent="1" source="15" style="endArrow=open;html=1;rounded=0;fontSize=10;entryX=0.007;entryY=0.408;fillColor=#fff2cc;strokeColor=#d6b656;exitX=-0.005;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="55" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="50" y="276" />
-              <mxPoint x="60" y="1120" />
-              <mxPoint x="60" y="1220" />
-            </Array>
-            <mxPoint x="370" y="480" as="sourcePoint" />
-            <mxPoint x="145" y="1120" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" value="&lt;b&gt;LEGJENDA&lt;/b&gt;&lt;br&gt;___________________&lt;br&gt;&lt;br&gt;&lt;b&gt;SEKTORET:&lt;/b&gt;&lt;br&gt;🟢 SEKTORI 1: Pronarët &amp; Rrugët&lt;br&gt;🔵 SEKTORI 2: Rrjeti i Ujësjellësit&lt;br&gt;🟡 SEKTORI 3: Ndërtesat &amp; Shtëpitē&lt;br&gt;&lt;br&gt;&lt;b&gt;NGJYRAT:&lt;/b&gt;&lt;br&gt;🟣 Pronarët &amp; Lidhje&lt;br&gt;🟢 Rrugët &amp; Kategoritë&lt;br&gt;🔴 Gypat e Ujësjellësit&lt;br&gt;🔵 Ujëmatesat&lt;br&gt;🟡 Ndërtesat &amp; Llotjet&lt;br&gt;⚪ Pjesët &amp; Shtëpitē&lt;br&gt;🟠 Tabelat e Lidhjeve" vertex="1">
           <mxGeometry height="210" width="205" x="65" y="560" as="geometry" />
         </mxCell>
@@ -304,7 +314,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lVsuMPT0frejzINOY-wN-189" connectable="0" parent="lVsuMPT0frejzINOY-wN-106" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Ba-Nd" vertex="1">
+        <mxCell id="lVsuMPT0frejzINOY-wN-189" connectable="0" parent="lVsuMPT0frejzINOY-wN-106" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" value="Ba-Nd" vertex="1">
           <mxGeometry relative="1" x="-0.9026" y="-1" as="geometry">
             <mxPoint x="-15" y="-79" as="offset" />
           </mxGeometry>
@@ -528,6 +538,54 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="530" y="230" as="sourcePoint" />
             <mxPoint x="590" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVsuMPT0frejzINOY-wN-204" edge="1" parent="1" source="lVsuMPT0frejzINOY-wN-135" style="rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="750" />
+              <mxPoint x="540" y="530" />
+            </Array>
+            <mxPoint x="580" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVsuMPT0frejzINOY-wN-205" connectable="0" parent="lVsuMPT0frejzINOY-wN-204" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-89;" value="1:M" vertex="1">
+          <mxGeometry relative="1" x="-0.0154" as="geometry">
+            <mxPoint y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVsuMPT0frejzINOY-wN-206" connectable="0" parent="lVsuMPT0frejzINOY-wN-204" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" value="gL-&amp;gt;Uz" vertex="1">
+          <mxGeometry relative="1" x="-0.8392" as="geometry">
+            <mxPoint x="8" y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVsuMPT0frejzINOY-wN-216" edge="1" parent="1" source="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.999;exitY=0.183;exitDx=0;exitDy=0;entryX=0.016;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fff2cc;strokeColor=#877537;exitPerimeter=0;" target="37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="513" />
+              <mxPoint x="860" y="450" />
+              <mxPoint x="860" y="279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVsuMPT0frejzINOY-wN-220" connectable="0" parent="lVsuMPT0frejzINOY-wN-216" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1:1" vertex="1">
+          <mxGeometry relative="1" x="-0.0819" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVsuMPT0frejzINOY-wN-221" connectable="0" parent="lVsuMPT0frejzINOY-wN-216" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" value="Nd---&amp;gt;uK" vertex="1">
+          <mxGeometry relative="1" x="-0.5781" as="geometry">
+            <mxPoint y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lVsuMPT0frejzINOY-wN-225" edge="1" parent="1" source="37" style="rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.984;exitY=0.817;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 4 1 4;" target="55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1150" y="370" />
+              <mxPoint x="1150" y="1180" />
+              <mxPoint x="210" y="1180" />
+            </Array>
+            <mxPoint x="1120" y="1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
