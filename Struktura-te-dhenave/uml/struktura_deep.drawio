@@ -411,13 +411,13 @@
           <mxGeometry height="160" width="170" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_zonal_individual&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" vertex="1">
-          <mxGeometry height="80" width="150" x="1260" y="1040" as="geometry" />
+          <mxGeometry height="80" width="150" x="245" y="1440" as="geometry" />
         </mxCell>
         <mxCell id="49" parent="48" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="ujemates_zonal_id&lt;br&gt;ujemates_individual_id&lt;br&gt;data_lidhjes&lt;br&gt;statusi" vertex="1">
           <mxGeometry height="45" width="130" x="10" y="25" as="geometry" />
         </mxCell>
         <mxCell id="50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_kolektiv_individual&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" vertex="1">
-          <mxGeometry height="80" width="150" x="1270" y="1190" as="geometry" />
+          <mxGeometry height="80" width="150" x="85" y="1440" as="geometry" />
         </mxCell>
         <mxCell id="51" parent="50" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="ujemates_kolektiv_id&lt;br&gt;ujemates_individual_id&lt;br&gt;data_lidhjes&lt;br&gt;statusi" vertex="1">
           <mxGeometry height="45" width="130" x="10" y="25" as="geometry" />
