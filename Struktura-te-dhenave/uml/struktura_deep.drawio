@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.2" pages="2">
   <diagram id="54Z8r0Q8AXjFjp57jenT" name="Page-1">
-    <mxGraphModel dx="681" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2762" dy="1512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,6 +108,22 @@
         <mxCell id="31" parent="1" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;SEKTORI 3: NDËRTESAT &amp;amp; SHTËPITË&amp;nbsp;&lt;/b&gt;&lt;b&gt;&amp;amp;&amp;nbsp; pronaret&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="320" x="825" y="180" as="geometry" />
         </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-219" edge="1" parent="1" source="36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 4 1 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Vk1xHZLcEC2V-oWDjZn2-211">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="310" />
+              <mxPoint x="1150" y="630" />
+              <mxPoint x="1110" y="1310" />
+              <mxPoint x="690" y="1300" />
+            </Array>
+            <mxPoint x="990" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-232" connectable="0" parent="Vk1xHZLcEC2V-oWDjZn2-219" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=85;" value="&lt;b style=&quot;font-size: 9px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;ujmates_individual_&lt;/b&gt;&lt;b style=&quot;font-size: 9px; text-wrap-mode: wrap; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;nderteses&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.7464" y="-2" as="geometry">
+            <mxPoint x="12" y="43" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <object label="&lt;b&gt;ndertesat&lt;/b&gt;&lt;br&gt;___________________" test="addfasdfasd" id="36">
           <mxCell parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1">
             <mxGeometry height="160" width="170" x="920" y="230" as="geometry">
@@ -127,6 +143,15 @@
         </mxCell>
         <mxCell id="39" parent="38" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: int&lt;br&gt;fk_ndertesa_id: int&lt;br&gt;pronari: varchar&lt;div&gt;pronari_id: varchar (Bill000..)&lt;br&gt;lloji: varchar (afarzem,amiseri)&lt;br&gt;kati: int&lt;div&gt;hyrja: int&lt;/div&gt;&lt;div&gt;adresa: varchar (Rr.&quot;test&quot;)&lt;br&gt;&lt;u&gt;FK,UK&lt;/u&gt; ujemates_individual_id: int&lt;br&gt;created_at: timestamp&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="160" width="160" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-256" edge="1" parent="1" source="41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.601;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 4 1 4;" target="Vk1xHZLcEC2V-oWDjZn2-253">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="820" />
+              <mxPoint x="1140" y="1420" />
+              <mxPoint x="670" y="1420" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="40" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=light-dark(#fff2cc, #1a1a1a);" value="&lt;b&gt;shtepite_individuale&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
           <mxGeometry height="130" width="170" x="920" y="710" as="geometry">
@@ -179,7 +204,7 @@
           <mxGeometry height="70" width="140" x="5" y="24.66363636363636" as="geometry" />
         </mxCell>
         <mxCell id="54" connectable="0" parent="1" style="group;spacing=0;verticalAlign=top;horizontal=0;" value="" vertex="1">
-          <mxGeometry height="100" width="960" x="80" y="1200" as="geometry" />
+          <mxGeometry height="100" width="980" x="80" y="1200" as="geometry" />
         </mxCell>
         <mxCell id="55" parent="54" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#dfd2e5, #1f2f1e);strokeColor=light-dark(#9673a6, #446e2c);fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_ujmatesKolektiv_ndertesa&lt;/b&gt;&lt;br&gt;(1:1)" vertex="1">
           <mxGeometry height="80" width="140" as="geometry" />
@@ -188,10 +213,34 @@
           <mxGeometry height="45" width="121.33333333333333" x="4.041333333333333" y="23.504" as="geometry" />
         </mxCell>
         <mxCell id="lVsuMPT0frejzINOY-wN-228" parent="54" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#dfd2e5, #1f2f1e);strokeColor=light-dark(#9673a6, #446e2c);fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_ujmates_individual_shtepi&lt;/b&gt;&lt;br&gt;(1:1)" vertex="1">
-          <mxGeometry height="80" width="147" x="163" as="geometry" />
+          <mxGeometry height="90" width="147" x="163" as="geometry" />
         </mxCell>
-        <mxCell id="lVsuMPT0frejzINOY-wN-229" parent="lVsuMPT0frejzINOY-wN-228" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="pronari_id&lt;br&gt;ujmatesi_indv_id&lt;br&gt;ujematesi qe mate sasite e tera te nderteses" vertex="1">
-          <mxGeometry height="45" width="135.76" x="4.24" y="23.5" as="geometry" />
+        <mxCell id="lVsuMPT0frejzINOY-wN-229" parent="lVsuMPT0frejzINOY-wN-228" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="pronari_id&lt;br&gt;ujmatesi_indv_id&lt;br&gt;ujematesi qe mate sasite e tera te nderteses&lt;div&gt;te dhenat e ujmatesit zonal shkruhen vetem te ujIndividual&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50.625" width="135.76" x="4.24" y="26.4375" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-207" parent="54" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#dfd2e5, #1f2f1e);strokeColor=light-dark(#9673a6, #446e2c);fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_ujmates_individual_&lt;/b&gt;&lt;div&gt;&lt;b&gt;pjese_te_nderteses&lt;/b&gt;&lt;br&gt;(1:1)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="147" x="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-208" parent="Vk1xHZLcEC2V-oWDjZn2-207" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="pronari_id&lt;br&gt;ujmatesi_indv_id&lt;br&gt;te dhenat e pronarit dhe njesise banesore qe shkembehn me ujmatesin individula qe ka shpenzimet" vertex="1">
+          <mxGeometry height="53.56" width="135.76" x="5.12" y="36.44" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-210" parent="54" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#dfd2e5, #1f2f1e);strokeColor=light-dark(#9673a6, #446e2c);fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_ujmates_individual_&lt;/b&gt;&lt;div&gt;&lt;b&gt;nderteses&lt;/b&gt;&lt;br&gt;(1:M)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="147" x="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-211" parent="Vk1xHZLcEC2V-oWDjZn2-210" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;" value="ndertesa_id&lt;br&gt;ndertesa_id&lt;br&gt;lidhje qe tregon ujmatesi ciles ndertese i takon" vertex="1">
+          <mxGeometry height="53.56" width="135.76" x="5.12" y="36.44" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-215" parent="54" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#dfd2e5, #1f2f1e);strokeColor=light-dark(#9673a6, #446e2c);fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_ujmates_individual_&lt;/b&gt;&lt;div&gt;&lt;b&gt;nderteses&lt;/b&gt;&lt;br&gt;(1:M)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="147" x="670" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-216" parent="Vk1xHZLcEC2V-oWDjZn2-215" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;" value="ndertesa_id&lt;br&gt;ndertesa_id&lt;br&gt;lidhje qe tregon ujmatesi ciles ndertese i takon" vertex="1">
+          <mxGeometry height="53.56" width="135.76" x="5.12" y="36.44" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-225" parent="54" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_ujmates_individual_kolektiv&lt;/b&gt;&lt;br&gt;(1:M )" vertex="1">
+          <mxGeometry height="100" width="150" x="850" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-226" parent="Vk1xHZLcEC2V-oWDjZn2-225" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=8;" value="gyp_lidhes_id&lt;br&gt;ujemates_kolektiv_id&lt;br&gt;1 gyp lidhes shume ujmatesa kolektiv&lt;div&gt;shfaq numrin e lidhjeve te ujmatesave kolektiv ne gyp lidhes&lt;/div&gt;&lt;div&gt;numri i konsumatoreve ne ate gyp lidhes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="5" y="24.66363636363636" as="geometry" />
         </mxCell>
         <mxCell id="81" edge="1" parent="1" source="25" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=-0.001;exitY=0.067;fillColor=#f8cecc;strokeColor=#b85450;exitDx=0;exitDy=0;dashPattern=8 4 1 4;exitPerimeter=0;endFill=1;dashed=1;" target="44" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -215,7 +264,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="90" edge="1" parent="1" source="36" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="38" value="1:M">
+        <mxCell id="90" edge="1" parent="1" source="36" style="endArrow=ERoneToMany;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endFill=0;" target="38" value="1:M">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="930" y="680" as="sourcePoint" />
             <mxPoint x="930" y="700" as="targetPoint" />
@@ -237,12 +286,24 @@
             <mxPoint x="580" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-244" edge="1" parent="1" source="30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.429;exitDx=0;exitDy=0;dashed=1;dashPattern=8 4 1 4;exitPerimeter=0;" target="Vk1xHZLcEC2V-oWDjZn2-245">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="830" />
+              <mxPoint x="570" y="1010" />
+              <mxPoint x="30" y="1000" />
+              <mxPoint x="20" y="1420" />
+              <mxPoint x="476" y="1420" />
+            </Array>
+            <mxPoint x="710" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="29" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;verticalAlign=top;" value="&lt;b&gt;ujemates_individual&lt;/b&gt;&lt;br&gt;___________________" vertex="1">
           <mxGeometry height="256" width="195" x="615" y="700" as="geometry">
             <mxRectangle height="40" width="170" x="570" y="620" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="30" parent="29" style="text;html=1;strokeColor=light-dark(#050505, #ededed);fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: varchar (Bill00....)&lt;br&gt;pronari_id: varchar&lt;div&gt;fk_gypi_lidhes_id: varchar (GL01)&lt;/div&gt;&lt;div&gt;fk_ujmatesiZonal_id: varchar (UZ01)&lt;/div&gt;&lt;div&gt;fk_ujmatesiKolektiv_id: varchar (UK01)&lt;/div&gt;&lt;div&gt;ndertesa_id: int&lt;br&gt;rruga: varchar&amp;nbsp;&lt;br&gt;lloji_perdorimit: varchar &lt;font style=&quot;font-size: 8px;&quot;&gt;(afarizem,amviseri)&lt;/font&gt;&lt;br&gt;viti_kyqjes: int&lt;br&gt;ndertimi_lloji: varchar&lt;br&gt;kati: int&lt;br&gt;sasite_inkasuara/matura: double&lt;br&gt;borxhi: double&lt;div&gt;geometry: geometry&lt;br&gt;created_at: timestamp&lt;div&gt;updated_at: timestamp&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="30" parent="29" style="text;html=1;strokeColor=light-dark(#050505, #ededed);fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: varchar (Bill00....)&lt;br&gt;pronari_id: varchar&lt;div&gt;fk_gypi_lidhes_id: varchar (GL01)&lt;/div&gt;&lt;div&gt;fk_ujmatesiZonal_id: varchar (UZ01)&lt;/div&gt;&lt;div&gt;fk_ujmatesiKolektiv_id: varchar (UK01)&lt;/div&gt;&lt;div&gt;fk_ndertesa_id: int&lt;br&gt;rruga: varchar&amp;nbsp;&lt;br&gt;lloji_perdorimit: varchar &lt;font style=&quot;font-size: 8px;&quot;&gt;(afarizem,amviseri)&lt;/font&gt;&lt;br&gt;viti_kyqjes: int&lt;br&gt;ndertimi_lloji: varchar&lt;br&gt;kati: int&lt;br&gt;sasite_inkasuara/matura: double&lt;br&gt;borxhi: double&lt;div&gt;geometry: geometry&lt;br&gt;created_at: timestamp&lt;div&gt;updated_at: timestamp&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="210" width="185" x="5" y="40" as="geometry" />
         </mxCell>
         <mxCell id="lVsuMPT0frejzINOY-wN-106" edge="1" parent="1" source="39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.024;entryY=0.183;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" target="37">
@@ -265,7 +326,7 @@
             <mxPoint x="-15" y="-79" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lVsuMPT0frejzINOY-wN-116" edge="1" parent="1" source="15" style="endArrow=open;html=1;rounded=0;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="37" value="1:M">
+        <mxCell id="lVsuMPT0frejzINOY-wN-116" edge="1" parent="1" source="15" style="endArrow=ERoneToMany;html=1;rounded=0;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endFill=0;" target="37" value="1:M">
           <mxGeometry height="50" relative="1" width="50" x="0.8227" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -406,14 +467,8 @@
         <mxCell id="lVsuMPT0frejzINOY-wN-135" parent="lVsuMPT0frejzINOY-wN-134" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;u&gt;PK&lt;/u&gt; id: varchar (GL01)&lt;br&gt;fk_gypifurnizimit_id: varchar (GF01)&lt;div&gt;fk_ujmatesiZonal_id: varchar (UZ01)&lt;/div&gt;&lt;div&gt;fk_gypShpernd_id: varchar (GSH01)&lt;/div&gt;&lt;div&gt;numri_kyqjeve: int (= me nr ujmatese)&lt;br&gt;thellesi: float&lt;br&gt;dimensioni: float&lt;br&gt;viti_instalimit: int&lt;br&gt;materiali: varchar&lt;br&gt;adresa: varchar (emri rruges)&lt;br&gt;&lt;div&gt;geometry: geometry (line)&lt;br&gt;created_at/updated_at: timestamp&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="160" width="170" x="10" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_zonal_individual&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" vertex="1">
-          <mxGeometry height="80" width="150" x="243" y="1320" as="geometry" />
-        </mxCell>
-        <mxCell id="49" parent="48" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="ujemates_zonal_id&lt;br&gt;ujemates_individual_id&lt;br&gt;data_lidhjes&lt;br&gt;statusi" vertex="1">
-          <mxGeometry height="45" width="130" x="10" y="25" as="geometry" />
-        </mxCell>
         <mxCell id="50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_rruge_uKolektiv&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" vertex="1">
-          <mxGeometry height="80" width="150" x="83" y="1320" as="geometry" />
+          <mxGeometry height="80" width="150" x="75" y="1440" as="geometry" />
         </mxCell>
         <mxCell id="51" parent="50" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="ujemates_kolektiv_id&lt;br&gt;rruga_id&lt;br&gt;perfitimi i adreses ne ujmates kolektiv" vertex="1">
           <mxGeometry height="45" width="130" x="10" y="25" as="geometry" />
@@ -455,11 +510,21 @@
         <mxCell id="lVsuMPT0frejzINOY-wN-175" edge="1" parent="1" source="lVsuMPT0frejzINOY-wN-135" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 4 1 4;" target="lVsuMPT0frejzINOY-wN-142">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-242" connectable="0" parent="lVsuMPT0frejzINOY-wN-175" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;rotation=90;" value="&lt;b style=&quot;text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;gyp_lidhes_furnizues&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.6907" y="1" as="geometry">
+            <mxPoint x="-1" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="lVsuMPT0frejzINOY-wN-176" edge="1" parent="1" source="lVsuMPT0frejzINOY-wN-135" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;dashed=1;dashPattern=8 4 1 4;" target="lVsuMPT0frejzINOY-wN-137">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lVsuMPT0frejzINOY-wN-177" edge="1" parent="1" source="lVsuMPT0frejzINOY-wN-135" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 4 1 4;" target="lVsuMPT0frejzINOY-wN-147">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-240" connectable="0" parent="lVsuMPT0frejzINOY-wN-177" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;fontSize=8;" value="&lt;b style=&quot;text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;gyp_lidhes_zonal&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.8515" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="lVsuMPT0frejzINOY-wN-123" edge="1" parent="1" source="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#a17f7d, #ededed);entryX=0.029;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" target="26">
           <mxGeometry relative="1" as="geometry">
@@ -527,27 +592,32 @@
         <mxCell id="lVsuMPT0frejzINOY-wN-225" edge="1" parent="1" source="37" style="rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.984;exitY=0.817;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 4 1 4;" target="55">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1150" y="370" />
-              <mxPoint x="1150" y="1180" />
+              <mxPoint x="1120" y="370" />
+              <mxPoint x="1090" y="1180" />
               <mxPoint x="210" y="1180" />
             </Array>
             <mxPoint x="1120" y="1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-234" connectable="0" parent="lVsuMPT0frejzINOY-wN-225" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" value="&lt;b style=&quot;font-size: 9px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;ujmatesKolektiv_ndertesa&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.4942" y="2" as="geometry">
+            <mxPoint y="-56" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_gyp_shperndares_individual&lt;/b&gt;&lt;br&gt;(1:M)" vertex="1">
-          <mxGeometry height="80" width="150" x="430" y="1320" as="geometry" />
+          <mxGeometry height="80" width="150" x="80" y="1320" as="geometry" />
         </mxCell>
         <mxCell id="53" parent="52" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="gyp_shperndares_id&lt;br&gt;ujemates_individual_id&lt;br&gt;data_lidhjes&lt;br&gt;statusi" vertex="1">
           <mxGeometry height="45" width="130" x="10" y="25" as="geometry" />
         </mxCell>
         <mxCell id="61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_gyp_shperndares_ndertesa&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" vertex="1">
-          <mxGeometry height="80" width="150" x="590" y="1320" as="geometry" />
+          <mxGeometry height="80" width="150" x="240" y="1320" as="geometry" />
         </mxCell>
         <mxCell id="62" parent="61" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="gyp_shperndares_id&lt;br&gt;ndertesa_id&lt;br&gt;data_lidhjes&lt;br&gt;statusi" vertex="1">
           <mxGeometry height="45" width="130" x="10" y="25" as="geometry" />
         </mxCell>
         <mxCell id="63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_gyp_shperndares_shtepi&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" vertex="1">
-          <mxGeometry height="80" width="150" x="750" y="1320" as="geometry" />
+          <mxGeometry height="80" width="150" x="400" y="1320" as="geometry" />
         </mxCell>
         <mxCell id="64" parent="63" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="gyp_shperndares_id&lt;br&gt;shtepi_individuale_id&lt;br&gt;data_lidhjes&lt;br&gt;statusi" vertex="1">
           <mxGeometry height="45" width="130" x="10" y="25" as="geometry" />
@@ -580,6 +650,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-241" connectable="0" parent="lVsuMPT0frejzINOY-wN-230" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;fontSize=6;" value="&lt;b style=&quot;text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;gyp_lidhes_shperndares&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1504" y="2" as="geometry">
+            <mxPoint y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="lVsuMPT0frejzINOY-wN-235" edge="1" parent="1" source="30" style="rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.994;exitY=0.085;exitDx=0;exitDy=0;entryX=0.008;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;strokeColor=light-dark(#93b1d7, #ededed);" target="41">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -603,14 +678,14 @@
         <mxCell id="lVsuMPT0frejzINOY-wN-238" edge="1" parent="1" source="41" style="rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;dashed=1;dashPattern=8 4 1 4;" target="lVsuMPT0frejzINOY-wN-228">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1110" y="830" />
-              <mxPoint x="1110" y="1190" />
+              <mxPoint x="1100" y="830" />
+              <mxPoint x="1070" y="1190" />
               <mxPoint x="380" y="1190" />
             </Array>
             <mxPoint x="1130" y="1150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lVsuMPT0frejzINOY-wN-239" edge="1" parent="1" source="30" style="rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;strokeColor=light-dark(#93b1d7, #ededed);exitX=1;exitY=0.042;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.008;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;" target="39">
+        <mxCell id="lVsuMPT0frejzINOY-wN-239" edge="1" parent="1" source="30" style="rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;strokeColor=light-dark(#93b1d7, #ededed);exitX=1;exitY=0.042;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.008;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERmandOne;endFill=0;startArrow=ERmandOne;startFill=0;" target="39">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="816" y="740" />
@@ -685,7 +760,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lVsuMPT0frejzINOY-wN-251" edge="1" parent="1" source="30" style="rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.999;exitY=0.346;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.012;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#91886e, #ededed);" target="37">
+        <mxCell id="lVsuMPT0frejzINOY-wN-251" edge="1" parent="1" source="30" style="rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.999;exitY=0.346;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.012;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#91886e, #ededed);endArrow=ERoneToMany;endFill=0;" target="37">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="870" y="810" />
@@ -703,6 +778,79 @@
           <mxGeometry relative="1" x="-0.9014" as="geometry">
             <mxPoint x="33" y="-221" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-218" edge="1" parent="1" source="39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.605;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 4 1 4;" target="Vk1xHZLcEC2V-oWDjZn2-207">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="640" />
+              <mxPoint x="1100" y="1190" />
+              <mxPoint x="510" y="1190" />
+            </Array>
+            <mxPoint x="1150" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-231" connectable="0" parent="Vk1xHZLcEC2V-oWDjZn2-218" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-86;" value="&lt;b style=&quot;font-size: 9px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;ujmates_individual_&lt;/b&gt;&lt;b style=&quot;font-size: 9px; text-wrap-mode: wrap; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pjese_te_nderteses&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.4523" as="geometry">
+            <mxPoint x="10" y="-185" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-220" edge="1" parent="1" source="30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 4 1 4;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="1030" />
+              <mxPoint x="1040" y="1200" />
+            </Array>
+            <mxPoint x="880" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-230" connectable="0" parent="Vk1xHZLcEC2V-oWDjZn2-220" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=30;" value="&lt;b style=&quot;font-size: 9px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;uj_ind_&lt;/b&gt;&lt;b style=&quot;font-size: 9px; text-wrap-mode: wrap; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ndert&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5621" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-228" edge="1" parent="1" source="30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 4 1 4;entryX=0.933;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="Vk1xHZLcEC2V-oWDjZn2-225">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="870" />
+            </Array>
+            <mxPoint x="1080" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-229" connectable="0" parent="Vk1xHZLcEC2V-oWDjZn2-228" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=5;" value="&lt;b style=&quot;font-size: 9px; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;ujmates_individual_kolektiv&lt;/b&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5828" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-236" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_rruge_zonal&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" vertex="1">
+          <mxGeometry height="80" width="150" x="235" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-237" parent="Vk1xHZLcEC2V-oWDjZn2-236" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="ujemates_zonal_id&lt;br&gt;rruga_id&lt;br&gt;perfitimi i adreses ne ujmates zonal" vertex="1">
+          <mxGeometry height="45" width="130" x="10" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-243" edge="1" parent="1" source="26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 4 1 4;entryX=0.423;entryY=-0.054;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.022;exitY=0.604;exitDx=0;exitDy=0;exitPerimeter=0;" target="Vk1xHZLcEC2V-oWDjZn2-236">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="410" />
+              <mxPoint x="270" y="410" />
+              <mxPoint x="270" y="1010" />
+              <mxPoint x="30" y="1010" />
+              <mxPoint x="40" y="1420" />
+              <mxPoint x="300" y="1420" />
+            </Array>
+            <mxPoint x="470" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-245" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_rruge_individual&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" vertex="1">
+          <mxGeometry height="80" width="150" x="400.88" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-246" parent="Vk1xHZLcEC2V-oWDjZn2-245" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="ujemates_individual_id&lt;br&gt;rruga_id&lt;br&gt;perfitimi i adreses ne ujmates zonal" vertex="1">
+          <mxGeometry height="45" width="130" x="10" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-253" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;verticalAlign=top;" value="&lt;b&gt;lidhje_rruge_individual&lt;/b&gt;&lt;br&gt;(1:M / 1:1)" vertex="1">
+          <mxGeometry height="80" width="150" x="574" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="Vk1xHZLcEC2V-oWDjZn2-254" parent="Vk1xHZLcEC2V-oWDjZn2-253" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" value="ujemates_zonal_id&lt;br&gt;rruga_id&lt;br&gt;perfitimi i adreses ne ujmates zonal" vertex="1">
+          <mxGeometry height="45" width="130" x="10" y="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
