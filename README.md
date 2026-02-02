@@ -428,3 +428,16 @@ CREATE TABLE gypi_shperndares (
 
 
 Rrjeti-i-ujësjellësit-Ferizaj--Harta-e-borgjeve--Përdhesa
+
+UjmatesiZonal symbol
+```
+ "sasite_hum" >100
+ "sasite_hum" >50 and  "sasite_hum" <100
+ "sasite_hum" <50
+ "sasite_hum" >100
+#c4c9cd
+#eae7e2
+#7a8c98
+#c1a3a1
+
+```
